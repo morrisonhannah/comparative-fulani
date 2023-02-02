@@ -1,0 +1,531 @@
+{
+  "metadata": {
+    "language": "Fulfulde (Maasina)",
+    "speakers": "Umaru",
+    "fieldworkers": "Peter Ladefoged",
+    "recordingDate": "12 March, 1962",
+    "location": "Unknown; speaker is from Mopti, Mali",
+    "iso630_3": "ffm",
+    "ucla": {
+      "entry": "1",
+      "lang_name": "Fulfulde (Maasina)",
+      "sil_code": "ffm",
+      "content": "Word List",
+      "recording_location": "Unknown; speaker is from Mopti, Mali",
+      "recording_date": "12 March, 1962",
+      "fieldworkers": "Peter Ladefoged",
+      "speakers": "Umaru",
+      "url_audio": "http://archive.phonetics.ucla.edu/Language/FFM/ffm_word-list_1962_01",
+      "filename_audio": "ffm_word-list_1962_01",
+      "url_wav": "http://archive.phonetics.ucla.edu/Language/FFM/ffm_word-list_1962_01.wav",
+      "filename_wav": "ffm_word-list_1962_01.wav",
+      "url_mp3": "http://archive.phonetics.ucla.edu/Language/FFM/ffm_word-list_1962_01.mp3",
+      "filename_mp3": "ffm_word-list_1962_01.mp3",
+      "wav_quality": "44.1 K, 16-bit sound depth (bit rate=705 kbps)",
+      "mp3_quality": "56 kpbs",
+      "original_medium": "reel tape",
+      "url_wordlist": "http://archive.phonetics.ucla.edu/Language/FFM/ffm_word-list_1962_01.html",
+      "wordlist": "ffm_word-list_1962_01.html",
+      "wordlist_entries": {
+        "start": 1,
+        "end": 32
+      },
+      "url_image_tif": "http://archive.phonetics.ucla.edu/Language/FFM/ffm_word-list_1962_01.tif",
+      "image_tif": "ffm_word-list_1962_01.tif",
+      "url_image_tif2": "http://archive.phonetics.ucla.edu/Language/FFM/ffm_word-list_1962_02.tif",
+      "image_tif2": "ffm_word-list_1962_02.tif",
+      "url_image_jpg": "http://archive.phonetics.ucla.edu/Language/FFM/ffm_word-list_1962_01.jpg",
+      "image_jpg": "ffm_word-list_1962_01.jpg",
+      "image_jpg2": "ffm_word-list_1962_02.jpg",
+      "tif_quality": "300 dpi",
+      "jpg_quality": "300 dpi",
+      "details": "ffm_record_details.html#1",
+      "rights": "This work is licensed under a Creative Commons license, available for viewing at http://creativecommons.org/licenses/by-nc/2.0/",
+      "wordlist_no_repetition": "ffm_word-list_1962_01.html",
+      "link_within_wordlist": "ffm_word-list_1962_01.html#1"
+    },
+    "id": "ffm_word-list_1962_01"
+  },
+  "sentences": [
+    {
+      "id": "1",
+      "transcription": "to paadˀaa",
+      "translation": "Where are you off to?",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "ffm_word-list_1962_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "transcription": "o barkidˀii",
+      "translation": "he is fortunate",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "ffm_word-list_1962_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "transcription": "o bˀamtii",
+      "translation": "he lifted",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "ffm_word-list_1962_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "transcription": "no mbaaldudˀaa",
+      "translation": "Have you had a good night?",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "ffm_word-list_1962_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "transcription": "o tawii",
+      "translation": "he found",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "ffm_word-list_1962_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "6",
+      "transcription": "o dawii",
+      "translation": "he started early",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "ffm_word-list_1962_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "7",
+      "transcription": "o dˀaanike",
+      "translation": "he slept",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "ffm_word-list_1962_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "8",
+      "transcription": "bˀe t̟ɕoodii",
+      "translation": "they sold",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "ffm_word-list_1962_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "9",
+      "transcription": "o ndaarii",
+      "translation": "he looked",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "ffm_word-list_1962_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "10",
+      "transcription": "o d̠ʑalii",
+      "translation": "he laughed",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "ffm_word-list_1962_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "11",
+      "transcription": "bˀe kaarii",
+      "translation": "they are full",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "ffm_word-list_1962_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "12",
+      "transcription": "o ɡooŋdˀii",
+      "translation": "he told the truth",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "ffm_word-list_1962_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "13",
+      "transcription": "bˀe ŋɡarii",
+      "translation": "they came",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "ffm_word-list_1962_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "14",
+      "transcription": "o ʔaawii",
+      "translation": "he sowed",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "ffm_word-list_1962_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "15",
+      "transcription": "o mahii",
+      "translation": "he built",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "ffm_word-list_1962_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "16",
+      "transcription": "o naatii",
+      "translation": "he entered",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "ffm_word-list_1962_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "17",
+      "transcription": "o ɲaamii",
+      "translation": "he ate",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "ffm_word-list_1962_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "18",
+      "transcription": "o ŋatii",
+      "translation": "he bit",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "ffm_word-list_1962_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "19",
+      "transcription": "o fabˀbii",
+      "translation": "he delayed",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "ffm_word-list_1962_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "20",
+      "transcription": "o warii",
+      "translation": "he came",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "ffm_word-list_1962_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "21",
+      "transcription": "o woowii",
+      "translation": "he became accustomed",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "ffm_word-list_1962_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "22",
+      "transcription": "o wulii",
+      "translation": "he burnt",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "ffm_word-list_1962_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "23",
+      "transcription": "o winndii",
+      "translation": "he wrote",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "ffm_word-list_1962_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "24",
+      "transcription": "o welaa",
+      "translation": "he is not good",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "ffm_word-list_1962_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "25",
+      "transcription": "o soodii",
+      "translation": "he bought",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "ffm_word-list_1962_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "26",
+      "transcription": "o haarii",
+      "translation": "he is full",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "ffm_word-list_1962_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "27",
+      "transcription": "o loonii",
+      "translation": "he washed",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "ffm_word-list_1962_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "28",
+      "transcription": "o remii",
+      "translation": "he hoed",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "ffm_word-list_1962_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "29",
+      "transcription": "o jarii",
+      "translation": "he drank",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "ffm_word-list_1962_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "30",
+      "transcription": "o ʔjakkii",
+      "translation": "he chewed",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "ffm_word-list_1962_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "31",
+      "transcription": "toje n̠d̠ʑaanodˀaa",
+      "translation": "Where had you gone?",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "ffm_word-list_1962_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "32",
+      "transcription": "o woowii paaɓi ʔe pobbi",
+      "translation": "He is accustomed to frogs and hyenas.",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "ffm_word-list_1962_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    }
+  ]
+}

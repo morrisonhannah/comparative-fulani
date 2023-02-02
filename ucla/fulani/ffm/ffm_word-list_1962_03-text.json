@@ -1,0 +1,276 @@
+{
+  "metadata": {
+    "language": "Fulfulde (Maasina)",
+    "speakers": "Umaru",
+    "fieldworkers": "Peter Ladefoged",
+    "recordingDate": "12 March, 1962",
+    "location": "Unknown; speaker is from Mopti, Mali",
+    "iso630_3": "ffm",
+    "ucla": {
+      "entry": "3",
+      "lang_name": "Fulfulde (Maasina)",
+      "sil_code": "ffm",
+      "content": "Word List",
+      "recording_location": "Unknown; speaker is from Mopti, Mali",
+      "recording_date": "12 March, 1962",
+      "fieldworkers": "Peter Ladefoged",
+      "speakers": "Umaru",
+      "url_audio": "http://archive.phonetics.ucla.edu/Language/FFM/ffm_word-list_1962_03",
+      "filename_audio": "ffm_word-list_1962_03",
+      "url_wav": "http://archive.phonetics.ucla.edu/Language/FFM/ffm_word-list_1962_03.wav",
+      "filename_wav": "ffm_word-list_1962_03.wav",
+      "url_mp3": "http://archive.phonetics.ucla.edu/Language/FFM/ffm_word-list_1962_03.mp3",
+      "filename_mp3": "ffm_word-list_1962_03.mp3",
+      "wav_quality": "44.1 K, 16-bit sound depth (bit rate=705 kbps)",
+      "mp3_quality": "56 kpbs",
+      "original_medium": "reel tape",
+      "url_wordlist": "http://archive.phonetics.ucla.edu/Language/FFM/ffm_word-list_1962_02.html",
+      "wordlist": "ffm_word-list_1962_02.html",
+      "wordlist_entries": {
+        "start": 8,
+        "end": 22
+      },
+      "url_image_tif": "http://archive.phonetics.ucla.edu/Language/FFM/ffm_word-list_1962_03.tif",
+      "image_tif": "ffm_word-list_1962_03.tif",
+      "url_image_tif2": "http://archive.phonetics.ucla.edu/Language/FFM/ffm.xml",
+      "image_tif2": "",
+      "url_image_jpg": "http://archive.phonetics.ucla.edu/Language/FFM/ffm_word-list_1962_03.jpg",
+      "image_jpg": "ffm_word-list_1962_03.jpg",
+      "image_jpg2": "",
+      "tif_quality": "300 dpi",
+      "jpg_quality": "300 dpi",
+      "details": "ffm_record_details.html#3",
+      "rights": "This work is licensed under a Creative Commons license, available for viewing at http://creativecommons.org/licenses/by-nc/2.0/",
+      "wordlist_no_repetition": "",
+      "link_within_wordlist": "ffm_word-list_1962_02.html#8"
+    },
+    "id": "ffm_word-list_1962_03"
+  },
+  "sentences": [
+    {
+      "id": "8",
+      "transcription": "fulfulde bˀe kaalata",
+      "translation": "It's Fula they are speaking.",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "ffm_word-list_1962_03.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "9",
+      "transcription": "hodˀum bˀe kaalata?",
+      "translation": "What are they speaking?",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "ffm_word-list_1962_03.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "10",
+      "transcription": "hoto ndʑahataa?",
+      "translation": "Where are you going?",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "ffm_word-list_1962_03.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "11",
+      "transcription": "hodˀum ngolludˀaa hannde?",
+      "translation": "What (word) have you learned today?",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "ffm_word-list_1962_03.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "12",
+      "transcription": "nde o warata?",
+      "translation": "When will he come?",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "ffm_word-list_1962_03.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "13",
+      "transcription": "dʑaaŋɡo o warata",
+      "translation": "It's tomorrow he will come.",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "ffm_word-list_1962_03.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "14",
+      "transcription": "mi jeɡɡitiino kono dʑooni mi mitɕtɕitike",
+      "translation": "I had forgotten but now I remember.",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "ffm_word-list_1962_03.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "15",
+      "transcription": "henɡu putɕtɕu tɕoodaiaa?",
+      "translation": "Which horse will you buy?",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "ffm_word-list_1962_03.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "16",
+      "transcription": "mi jeɡɡitii mbottaari maa",
+      "translation": "The chief has arrived.",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "ffm_word-list_1962_03.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "17",
+      "transcription": "mi jeɡɡitataa mbottaari maa",
+      "translation": "I have forgotten your breakfast.",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "ffm_word-list_1962_03.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "18",
+      "transcription": "mi jeɡɡitataa mbottaari maa",
+      "translation": "I will not forget your breakfast.",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "ffm_word-list_1962_03.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "19",
+      "transcription": "mi jeɡɡitataa ma e mbottaari",
+      "translation": "I will not forget you at breakfast.",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "ffm_word-list_1962_03.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "20",
+      "transcription": "mbottaari maa jeɡɡitaama",
+      "translation": "Your breakfast has been forgotten.",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "ffm_word-list_1962_03.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "21",
+      "transcription": "mbottaari maa jeɡɡitaaka",
+      "translation": "Your breakfast has not been forgotten.",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "ffm_word-list_1962_03.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "22",
+      "transcription": "so jiite naŋŋɡii suudu suudu suman",
+      "translation": "If a/the fire catches a hut, the hut will burn.",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "ffm_word-list_1962_03.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,1479 @@
+{
+  "metadata": {
+    "language": "Pular",
+    "speakers": "N/A",
+    "fieldworkers": "UCLA student",
+    "recordingDate": "30 November, 1979",
+    "location": "UCLA Phonetics Lab; speaker is from Dalaba, Guinea",
+    "iso630_3": "fuf",
+    "ucla": {
+      "entry": "1",
+      "lang_name": "Pular",
+      "sil_code": "fuf",
+      "content": "Word List",
+      "recording_location": "UCLA Phonetics Lab; speaker is from Dalaba, Guinea",
+      "recording_date": "30 November, 1979",
+      "fieldworkers": "UCLA student",
+      "speakers": "N/A",
+      "url_audio": "http://archive.phonetics.ucla.edu/Language/FUF/fuf_word-list_1979_01",
+      "filename_audio": "fuf_word-list_1979_01",
+      "url_wav": "http://archive.phonetics.ucla.edu/Language/FUF/fuf_word-list_1979_01.wav",
+      "filename_wav": "fuf_word-list_1979_01.wav",
+      "url_mp3": "http://archive.phonetics.ucla.edu/Language/FUF/fuf_word-list_1979_01.mp3",
+      "filename_mp3": "fuf_word-list_1979_01.mp3",
+      "wav_quality": "44.1 K, 16-bit sound depth (bit rate=705 kpbs)",
+      "mp3_quality": "56 kpbs",
+      "original_medium": "cassette tape",
+      "url_wordlist": "http://archive.phonetics.ucla.edu/Language/FUF/fuf_word-list_1979_01.html",
+      "wordlist": "fuf_word-list_1979_01.html",
+      "wordlist_entries": {
+        "start": 1,
+        "end": 84
+      },
+      "url_image_tif": "http://archive.phonetics.ucla.edu/Language/FUF/fuf_word-list_1979_01.tif",
+      "image_tif": "fuf_word-list_1979_01.tif",
+      "url_image_tif2": "http://archive.phonetics.ucla.edu/Language/FUF/fuf_word-list_1979_02.tif",
+      "image_tif2": "fuf_word-list_1979_02.tif",
+      "url_image_jpg": "http://archive.phonetics.ucla.edu/Language/FUF/fuf_word-list_1979_01.jpg",
+      "image_jpg": "fuf_word-list_1979_01.jpg",
+      "image_jpg2": "fuf_word-list_1979_02.jpg",
+      "tif_quality": "300 dpi",
+      "jpg_quality": "300 dpi",
+      "details": "fuf_record_details.html#1",
+      "rights": "This work is licensed under a Creative Commons license, available for viewing at http://creativecommons.org/licenses/by-nc/2.0/",
+      "wordlist_no_repetition": "fuf_word-list_1979_01.html",
+      "link_within_wordlist": "fuf_word-list_1979_01.html#1"
+    },
+    "id": "fuf_word-list_1979_01"
+  },
+  "sentences": [
+    {
+      "id": "1",
+      "orthographic": "mi",
+      "transcription": "ˈmi",
+      "translation": "me, I",
+      "translationFrench": "moi, je",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuf_word-list_1979_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "orthographic": "mehowa",
+      "transcription": "ˈmehɔwa",
+      "translation": "to stammer",
+      "translationFrench": "bégayer",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuf_word-list_1979_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "orthographic": "",
+      "transcription": "ˈmaɪha",
+      "translation": "one leaves someplace",
+      "translationFrench": "on s'en va",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuf_word-list_1979_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "orthographic": "himo yaha",
+      "transcription": "ˈhiˈmo ˈjaha",
+      "translation": "he will go",
+      "translationFrench": "il va aller",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuf_word-list_1979_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "orthographic": "himo mura",
+      "transcription": "ˈhiˈmo ˈmuɾəʔ",
+      "translation": "to suck on candies",
+      "translationFrench": "suçoter des bonbons",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuf_word-list_1979_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "6",
+      "orthographic": "himo ɓiruda",
+      "transcription": "ˈhiˈmo ˈɓɪɾəʔ / ˈɓɪɾudəʔ",
+      "translation": "to milk",
+      "translationFrench": "traire",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuf_word-list_1979_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "7",
+      "orthographic": "himo liila",
+      "transcription": "ˈhiˈmo ˈliiləʔ",
+      "translation": "to put outside to dry",
+      "translationFrench": "mettre a sécher au dehors",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuf_word-list_1979_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "8",
+      "orthographic": "himo seɗudu",
+      "transcription": "ˈhiˈmo ˈseɗudʊʔ",
+      "translation": "to separate out flour",
+      "translationFrench": "séparer la farine du son",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuf_word-list_1979_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "9",
+      "orthographic": "(himo) seeki",
+      "transcription": "(ˈhiˈmo) ˈseekʲi",
+      "translation": "to tear, rip",
+      "translationFrench": "déchirer",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuf_word-list_1979_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "10",
+      "orthographic": "(himo) laaba",
+      "transcription": "(ˈhiˈmo) ˈlaabaʔ",
+      "translation": "beautiful",
+      "translationFrench": "beau",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuf_word-list_1979_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "11",
+      "orthographic": "(himo) laabaa",
+      "transcription": "(ˈhiˈmo) ˈlaaˈbaa",
+      "translation": "improper",
+      "translationFrench": "pas propre",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuf_word-list_1979_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "12",
+      "orthographic": "himo yoɓi",
+      "transcription": "ˈhiˈmo ˈjoɓiʔ",
+      "translation": "to pay",
+      "translationFrench": "payer",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuf_word-list_1979_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "13",
+      "orthographic": "himo yoorudu",
+      "transcription": "ˈhiˈmo ˈjooɾudʊʔ",
+      "translation": "to be in the process of drying",
+      "translationFrench": "être en train de sécher",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuf_word-list_1979_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "14",
+      "orthographic": "himo wuli",
+      "transcription": "ˈhiˈmo ˈβuliʔ",
+      "translation": "to heat",
+      "translationFrench": "faire chaud",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuf_word-list_1979_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "15",
+      "orthographic": "himo lootaada",
+      "transcription": "ˈhiˈmo ˈlootaadəʔ",
+      "translation": "to bathe (wash)",
+      "translationFrench": "se baigner (laver)",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuf_word-list_1979_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "16",
+      "orthographic": "boobo",
+      "transcription": "ˈbooboʔ",
+      "translation": "infant",
+      "translationFrench": "nourrisson",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuf_word-list_1979_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "17",
+      "orthographic": "baaba",
+      "transcription": "ˈbaabaʔ",
+      "translation": "father",
+      "translationFrench": "père",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuf_word-list_1979_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "18",
+      "orthographic": "neene",
+      "transcription": "ˈn̪een̪ɛʔ",
+      "translation": "mother",
+      "translationFrench": "mère",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuf_word-list_1979_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "19",
+      "orthographic": "ko kaambe, seynike",
+      "transcription": "ˈko ˈkaaᵐbe, ˈsein̪ike",
+      "translation": "someone important",
+      "translationFrench": "quelqu'un d'important",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuf_word-list_1979_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "20",
+      "orthographic": "hoyii",
+      "transcription": "ˈhɔjii",
+      "translation": "that works better",
+      "translationFrench": "ça va mieux",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuf_word-list_1979_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "21",
+      "orthographic": "himo muynudu",
+      "transcription": "ˈhiˈmo ˈmuin̪ʊdʊ",
+      "translation": "he drinks his mother's milk",
+      "translationFrench": "il boit le lait de sa mère",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuf_word-list_1979_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "22",
+      "orthographic": "o nawye",
+      "transcription": "ˈʔo ˈn̪aujeʔ",
+      "translation": "old",
+      "translationFrench": "vieux",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuf_word-list_1979_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "23",
+      "orthographic": "siwtaabee",
+      "transcription": "ˈʃiuti / ˈʃiutaabee",
+      "translation": "to give birth to twins",
+      "translationFrench": "accoucher des jumeaux",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuf_word-list_1979_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "24",
+      "orthographic": "lewru",
+      "transcription": "ˈleuru",
+      "translation": "moon",
+      "translationFrench": "lune",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuf_word-list_1979_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "25",
+      "orthographic": "gawri",
+      "transcription": "ˈɡauriʔ",
+      "translation": "a thousand",
+      "translationFrench": "mil",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuf_word-list_1979_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "26",
+      "orthographic": "Pullo",
+      "transcription": "ˈpʊllo",
+      "translation": "Pulaar",
+      "translationFrench": "Peul",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuf_word-list_1979_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "27",
+      "orthographic": "baaba",
+      "transcription": "ˈbaabəʔ",
+      "translation": "father",
+      "translationFrench": "père",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuf_word-list_1979_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "28",
+      "orthographic": "ɓaleeyo",
+      "transcription": "ˈɓaleejo",
+      "translation": "black",
+      "translationFrench": "noir",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuf_word-list_1979_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "29",
+      "orthographic": "ko maama maako",
+      "transcription": "ˈko ˈmaama ˈmaakoʔ",
+      "translation": "grandfather",
+      "translationFrench": "grand'père",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuf_word-list_1979_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "30",
+      "orthographic": "taartadu",
+      "transcription": "mo ˈtaartadʊ",
+      "translation": "to take off a loincloth (to undress oneself--a woman)",
+      "translationFrench": "enlever le pagne (se dévêtir - une femme)",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuf_word-list_1979_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "31",
+      "orthographic": "daande",
+      "transcription": "ˈdaaⁿdʊʔ",
+      "translation": "neck",
+      "translationFrench": "cou",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuf_word-list_1979_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "32",
+      "orthographic": "ɗaati",
+      "transcription": "ɗaati",
+      "translation": "to crush",
+      "translationFrench": "piler",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuf_word-list_1979_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "33",
+      "orthographic": "naa(ni)",
+      "transcription": "ˈn̪aani / ˈn̪aa",
+      "translation": "yes (polite form)",
+      "translationFrench": "oui (forme poli)",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuf_word-list_1979_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "34",
+      "orthographic": "ndaaro",
+      "transcription": "ˈⁿdaaɾo",
+      "translation": "lookǃ",
+      "translationFrench": "regarde",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuf_word-list_1979_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "35",
+      "orthographic": "kaakul, kaaki",
+      "transcription": "ˈkaakʷʊl, ˈkaakʲi",
+      "translation": "leaves",
+      "translationFrench": "des feuilles",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuf_word-list_1979_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "36",
+      "orthographic": "gaarawol",
+      "transcription": "ˈɡaaɾəβɔl",
+      "translation": "thread",
+      "translationFrench": "un fil",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuf_word-list_1979_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "37",
+      "orthographic": "naabol",
+      "transcription": "ˈŋaaβɔl",
+      "translation": "to open a little more",
+      "translationFrench": "ouvrir un peu plus",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuf_word-list_1979_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "38",
+      "orthographic": "ngaandi",
+      "transcription": "ˈᵑɡaaⁿdiʔ",
+      "translation": "brain",
+      "translationFrench": "cervelle",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuf_word-list_1979_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "39",
+      "orthographic": "maama maako",
+      "transcription": "ˈmaama ˈmaakoʔ",
+      "translation": "grandfather",
+      "translationFrench": "grand'père",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuf_word-list_1979_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "40",
+      "orthographic": "naa",
+      "transcription": "ˈnaa",
+      "translation": "yes (polite form)",
+      "translationFrench": "oui (forme poli)",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuf_word-list_1979_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "41",
+      "orthographic": "himo nyaaɗi",
+      "transcription": "ˈhiˈmo ɲaaɗi",
+      "translation": "mean, nasty, bad",
+      "translationFrench": "méchant",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuf_word-list_1979_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "42",
+      "orthographic": "naabol",
+      "transcription": "ˈŋaaβɔl",
+      "translation": "to open a little more",
+      "translationFrench": "ouvrir un peu plus",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuf_word-list_1979_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "43",
+      "orthographic": "bon-bon",
+      "transcription": "ˈbɔŋˈbɔŋ",
+      "translation": "piece of candy",
+      "translationFrench": "bonbon",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuf_word-list_1979_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "44",
+      "orthographic": "Aadama",
+      "transcription": "ʔaadəməʔ",
+      "translation": "Adam (a boy's name)",
+      "translationFrench": "Adam (un prenom de garcon)",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuf_word-list_1979_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "45",
+      "orthographic": "coggu ku jelu",
+      "transcription": "ˈn̩ ˈtʃoɡɡu ˈku ˈdʒelu",
+      "translation": "What is the price?",
+      "translationFrench": "Quel est le prix?",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuf_word-list_1979_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "46",
+      "orthographic": "mi jogi gooto",
+      "transcription": "ˈmi ˈdʒoɡi ˈɡootoʔ",
+      "translation": "I have one.",
+      "translationFrench": "J'en ai un.",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuf_word-list_1979_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "47",
+      "orthographic": "ko joyi, njoyi",
+      "transcription": "ˈko ˈdʒoji, ⁿdʒoji",
+      "translation": "five",
+      "translationFrench": "cinq",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuf_word-list_1979_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "48",
+      "orthographic": "faaⁿdi",
+      "transcription": "ˈhiˈmo faaⁿdi",
+      "translation": "to be small",
+      "translationFrench": "être petit",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuf_word-list_1979_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "49",
+      "orthographic": "saami",
+      "transcription": "ˈsaami",
+      "translation": "to fall",
+      "translationFrench": "tomber",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuf_word-list_1979_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "50",
+      "orthographic": "mi shikki",
+      "transcription": "ˈmi ˈʃikkʲi",
+      "translation": "I think yes, he's done it",
+      "translationFrench": "je pense que oui, il a fait",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuf_word-list_1979_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "51",
+      "orthographic": "himo waˈudu",
+      "transcription": "ˈhiˈmo ˈwaʔudʊʔ",
+      "translation": "to cut rice (reap)",
+      "translationFrench": "couper le riz (faucher)",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuf_word-list_1979_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "52",
+      "orthographic": "himo wi'i",
+      "transcription": "ˈhiˈmo βiʔiʔ",
+      "translation": "to say",
+      "translationFrench": "dire",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuf_word-list_1979_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "53",
+      "orthographic": "weeti",
+      "transcription": "ˈβeeti",
+      "translation": "",
+      "translationFrench": "faire jour",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuf_word-list_1979_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "54",
+      "orthographic": "yardu",
+      "transcription": "ˈjaɾdʊʔ",
+      "translation": "to drink",
+      "translationFrench": "boire",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuf_word-list_1979_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "55",
+      "orthographic": "himo 'yaamudu",
+      "transcription": "ˈhiˈmo ʔjaamʊdʊʔ",
+      "translation": "to ask for someone's hand in marriage",
+      "translationFrench": "demander en marriage",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuf_word-list_1979_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "56",
+      "orthographic": "laabaa",
+      "transcription": "ʔo ˈlaabaa",
+      "translation": "improper",
+      "translationFrench": "pas propre",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuf_word-list_1979_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "57",
+      "orthographic": "raawaando",
+      "transcription": "ˈɾaawaaⁿdo",
+      "translation": "dog",
+      "translationFrench": "chien",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuf_word-list_1979_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "58",
+      "orthographic": "hoori",
+      "transcription": "ˈhooɾi",
+      "translation": "to fast",
+      "translationFrench": "jeûner (comme pendant le carème)",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuf_word-list_1979_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "59",
+      "orthographic": "o artii",
+      "transcription": "ʔo ˈaɾtii",
+      "translation": "he returned",
+      "translationFrench": "il est revenu",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuf_word-list_1979_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "60",
+      "orthographic": "himo mooɗi, o tooraaki",
+      "transcription": "ˈhiˈmo ˈmooɗiʔ, ʔo ˈtooɾaaki",
+      "translation": "it's good",
+      "translationFrench": "c'est bon",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuf_word-list_1979_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "61",
+      "orthographic": "ɓe haaɓi",
+      "transcription": "ˈɓe ˈhaaɓi",
+      "translation": "they are beaten",
+      "translationFrench": "ils se sont battus",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuf_word-list_1979_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "62",
+      "orthographic": "ɓe haaɓi",
+      "transcription": "ˈɓe ˈhaaɓi",
+      "translation": "they won",
+      "translationFrench": "ils ont gagné",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuf_word-list_1979_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "63",
+      "orthographic": "be heli",
+      "transcription": "ˈɓe ˈheli",
+      "translation": "to break (they are broken)",
+      "translationFrench": "casser (ils ont cassé)",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuf_word-list_1979_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "64",
+      "orthographic": "be kelli",
+      "transcription": "ˈɓe ˈkelli",
+      "translation": "to applaud (they applauded)",
+      "translationFrench": "applaudir (ils ont applaudi)",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuf_word-list_1979_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "65",
+      "orthographic": "fuuta",
+      "transcription": "ˈfuutaʔ",
+      "translation": "Pulaar (a town)",
+      "translationFrench": "Peul (une ville)",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuf_word-list_1979_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "66",
+      "orthographic": "fottay",
+      "transcription": "ˈfottaɪ",
+      "translation": "we'll meet here",
+      "translationFrench": "on va rencontrer ici",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuf_word-list_1979_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "67",
+      "orthographic": "addo",
+      "transcription": "addo",
+      "translation": "to take along, lead out",
+      "translationFrench": "emmener",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuf_word-list_1979_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "68",
+      "orthographic": "galheeki",
+      "transcription": "ɡalˈheeki",
+      "translation": "to whinny, neigh",
+      "translationFrench": "hénnir",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuf_word-list_1979_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "69",
+      "orthographic": "hayyo",
+      "transcription": "hajjoʔ",
+      "translation": "to make a pilgrimage (to Mecca)",
+      "translationFrench": "faire le pélérinage (à la Mecque)",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuf_word-list_1979_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "70",
+      "orthographic": "ko kaawo, bappa",
+      "transcription": "ˈko ˈkaaβoʔ, ˈbəppəʔ",
+      "translation": "paternal uncle",
+      "translationFrench": "oncle paternel",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuf_word-list_1979_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "71",
+      "orthographic": "o immiike",
+      "transcription": "ʔo ˈʔimmiikʲeʔ",
+      "translation": "to get up (to lift)",
+      "translationFrench": "se lever (soulever)",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuf_word-list_1979_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "72",
+      "orthographic": "puccu",
+      "transcription": "ˈpʊtʃtʃʊ",
+      "translation": "horse",
+      "translationFrench": "un cheval",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuf_word-list_1979_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "73",
+      "orthographic": "siiwaa",
+      "transcription": "ˈsiiˈwaa",
+      "translation": "not right now",
+      "translationFrench": "pas maintenant",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuf_word-list_1979_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "74",
+      "orthographic": "mo moodi berde",
+      "transcription": "ˈmo ˈmooɗi ˈbɛɾdeʔ",
+      "translation": "good at heart",
+      "translationFrench": "bon de coeur",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuf_word-list_1979_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "75",
+      "orthographic": "ko kanko",
+      "transcription": "ˈko ˈkaŋkoʔ",
+      "translation": "It's for him/her.",
+      "translationFrench": "C'est lui.",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuf_word-list_1979_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "76",
+      "orthographic": "be nanngiimo",
+      "transcription": "ˈɓe ˈn̪aŋᵑɡiimoʔ",
+      "translation": "to catch, trick",
+      "translationFrench": "attraper",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuf_word-list_1979_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "77",
+      "orthographic": "o wuuli, gonngol",
+      "transcription": "ˈʔo ˈβuuli, ˈɡɔŋᵑɡɔl",
+      "translation": "taste",
+      "translationFrench": "goute",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuf_word-list_1979_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "78",
+      "orthographic": "o artii",
+      "transcription": "ˈʔo ˈʔaɾtii",
+      "translation": "he returned",
+      "translationFrench": "il est revenu",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuf_word-list_1979_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "79",
+      "orthographic": "o daaneejo",
+      "transcription": "ˈʔo ˈdaaneedʒo",
+      "translation": "white",
+      "translationFrench": "blanc",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuf_word-list_1979_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "80",
+      "orthographic": "o annditi",
+      "transcription": "ʔo ˈʔan̪ⁿditi",
+      "translation": "he recognized",
+      "translationFrench": "il a reconnu",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuf_word-list_1979_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "81",
+      "orthographic": "ko horde",
+      "transcription": "ˈko ˈhordə",
+      "translation": "calabash",
+      "translationFrench": "calebasse",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuf_word-list_1979_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "82",
+      "orthographic": "ko unndugal",
+      "transcription": "ˈko ˈʔʊnⁿdəɡal",
+      "translation": "mortar (pestle)",
+      "translationFrench": "mortier (pilon)",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuf_word-list_1979_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "83",
+      "orthographic": "mi artataa",
+      "transcription": "ˈmi ˈʔartataa",
+      "translation": "I will not return.",
+      "translationFrench": "Je ne reviendrai pas.",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuf_word-list_1979_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "84",
+      "orthographic": "mi noddidataa mo",
+      "transcription": "ˈmi ˈn̪oddidaˈtaamo",
+      "translation": "I will not call him.",
+      "translationFrench": "Je ne l'appelerai pas.",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuf_word-list_1979_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    }
+  ]
+}

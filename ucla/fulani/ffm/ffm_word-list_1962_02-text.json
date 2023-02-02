@@ -1,0 +1,156 @@
+{
+  "metadata": {
+    "language": "Fulfulde (Maasina)",
+    "speakers": "Umaru",
+    "fieldworkers": "Peter Ladefoged",
+    "recordingDate": "12 March, 1962",
+    "location": "Unknown; speaker is from Mopti, Mali",
+    "iso630_3": "ffm",
+    "ucla": {
+      "entry": "2",
+      "lang_name": "Fulfulde (Maasina)",
+      "sil_code": "ffm",
+      "content": "Word List",
+      "recording_location": "Unknown; speaker is from Mopti, Mali",
+      "recording_date": "12 March, 1962",
+      "fieldworkers": "Peter Ladefoged",
+      "speakers": "Umaru",
+      "url_audio": "http://archive.phonetics.ucla.edu/Language/FFM/ffm_word-list_1962_02",
+      "filename_audio": "ffm_word-list_1962_02",
+      "url_wav": "http://archive.phonetics.ucla.edu/Language/FFM/ffm_word-list_1962_02.wav",
+      "filename_wav": "ffm_word-list_1962_02.wav",
+      "url_mp3": "http://archive.phonetics.ucla.edu/Language/FFM/ffm_word-list_1962_02.mp3",
+      "filename_mp3": "ffm_word-list_1962_02.mp3",
+      "wav_quality": "44.1 K, 16-bit sound depth (bit rate=705 kbps)",
+      "mp3_quality": "56 kpbs",
+      "original_medium": "reel tape",
+      "url_wordlist": "http://archive.phonetics.ucla.edu/Language/FFM/ffm_word-list_1962_02.html",
+      "wordlist": "ffm_word-list_1962_02.html",
+      "wordlist_entries": {
+        "start": 1,
+        "end": 7
+      },
+      "url_image_tif": "http://archive.phonetics.ucla.edu/Language/FFM/ffm_word-list_1962_03.tif",
+      "image_tif": "ffm_word-list_1962_03.tif",
+      "url_image_tif2": "http://archive.phonetics.ucla.edu/Language/FFM/ffm.xml",
+      "image_tif2": "",
+      "url_image_jpg": "http://archive.phonetics.ucla.edu/Language/FFM/ffm_word-list_1962_03.jpg",
+      "image_jpg": "ffm_word-list_1962_03.jpg",
+      "image_jpg2": "",
+      "tif_quality": "300 dpi",
+      "jpg_quality": "300 dpi",
+      "details": "ffm_record_details.html#2",
+      "rights": "This work is licensed under a Creative Commons license, available for viewing at http://creativecommons.org/licenses/by-nc/2.0/",
+      "wordlist_no_repetition": "ffm_word-list_1962_02.html",
+      "link_within_wordlist": "ffm_word-list_1962_02.html#1"
+    },
+    "id": "ffm_word-list_1962_02"
+  },
+  "sentences": [
+    {
+      "id": "1",
+      "transcription": "o wáddii defte mabˀbˀe",
+      "translation": "He brought their books.",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "ffm_word-list_1962_02.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "transcription": "homo waddi defte mabˀbˀe?",
+      "translation": "Who brought their books?",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "ffm_word-list_1962_02.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "transcription": "ndijam dˀaʔam jaratáako",
+      "translation": "This water is not drinkable.",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "ffm_word-list_1962_02.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "transcription": "ɡudʑo ʔon nánngaama",
+      "translation": "The thief has been caught.",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "ffm_word-list_1962_02.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "transcription": "ɡudʑo ʔon nammgaama?",
+      "translation": "Has the thief been caught?",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "ffm_word-list_1962_02.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "6",
+      "transcription": "ɡudʑo ʔon nanngaaka",
+      "translation": "The thief has not been caught.",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "ffm_word-list_1962_02.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "7",
+      "transcription": "ɡudʑo ʔon nanngaaka na?",
+      "translation": "Has the thief not been caught?",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "ffm_word-list_1962_02.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+[
+  [
+    {
+      "type": "ucla-wordlist",
+      "id": "wordlist",
+      "fileName": "ffm_word-list_1962_01.html",
+      "url": "http://archive.phonetics.ucla.edu/Language/FFM/ffm_word-list_1962_01.html"
+    },
+    {
+      "type": "sentence-range",
+      "id": "sentence-range",
+      "range": [
+        1,
+        32
+      ]
+    },
+    {
+      "type": "speakers",
+      "speakers": "Umaru"
+    },
+    {
+      "type": "audio",
+      "format": "wav",
+      "fileName": "ffm_word-list_1962_01.wav",
+      "url": "http://archive.phonetics.ucla.edu/Language/FFM/ffm_word-list_1962_01.wav"
+    },
+    {
+      "type": "audio",
+      "format": "mp3"
+    },
+    {
+      "type": "image",
+      "id": "jpg",
+      "format": "jpg",
+      "fileName": "ffm_word-list_1962_01.jpg",
+      "url": "http://archive.phonetics.ucla.edu/Language/FFM/ffm_word-list_1962_01.jpg"
+    },
+    {
+      "type": "image",
+      "id": "jpg2",
+      "format": "jpg",
+      "fileName": "ffm_word-list_1962_02.jpg",
+      "url": "http://archive.phonetics.ucla.edu/Language/FFM/ffm_word-list_1962_02.jpg"
+    },
+    {
+      "type": "ucla-metadata",
+      "id": "ucla-metadata",
+      "file": "ffm_record_details.html#1"
+    }
+  ],
+  [
+    {
+      "type": "ucla-wordlist",
+      "id": "wordlist",
+      "fileName": "ffm_word-list_1962_02.html",
+      "url": "http://archive.phonetics.ucla.edu/Language/FFM/ffm_word-list_1962_02.html"
+    },
+    {
+      "type": "sentence-range",
+      "id": "sentence-range",
+      "range": [
+        1,
+        7
+      ]
+    },
+    {
+      "type": "speakers",
+      "speakers": "Umaru"
+    },
+    {
+      "type": "audio",
+      "format": "wav",
+      "fileName": "ffm_word-list_1962_02.wav",
+      "url": "http://archive.phonetics.ucla.edu/Language/FFM/ffm_word-list_1962_02.wav"
+    },
+    {
+      "type": "audio",
+      "format": "mp3"
+    },
+    {
+      "type": "image",
+      "id": "jpg",
+      "format": "jpg",
+      "fileName": "ffm_word-list_1962_03.jpg",
+      "url": "http://archive.phonetics.ucla.edu/Language/FFM/ffm_word-list_1962_03.jpg"
+    },
+    {
+      "type": "image",
+      "id": "jpg2",
+      "format": "jpg",
+      "fileName": null
+    },
+    {
+      "type": "ucla-metadata",
+      "id": "ucla-metadata",
+      "file": "ffm_record_details.html#2"
+    }
+  ],
+  [
+    {
+      "type": "ucla-wordlist",
+      "id": "wordlist",
+      "fileName": null
+    },
+    {
+      "type": "sentence-range",
+      "id": "sentence-range",
+      "range": [
+        8,
+        22
+      ]
+    },
+    {
+      "type": "speakers",
+      "speakers": "Umaru"
+    },
+    {
+      "type": "audio",
+      "format": "wav",
+      "fileName": "ffm_word-list_1962_03.wav",
+      "url": "http://archive.phonetics.ucla.edu/Language/FFM/ffm_word-list_1962_03.wav"
+    },
+    {
+      "type": "audio",
+      "format": "mp3"
+    },
+    {
+      "type": "image",
+      "id": "jpg",
+      "format": "jpg",
+      "fileName": "ffm_word-list_1962_03.jpg",
+      "url": "http://archive.phonetics.ucla.edu/Language/FFM/ffm_word-list_1962_03.jpg"
+    },
+    {
+      "type": "image",
+      "id": "jpg2",
+      "format": "jpg",
+      "fileName": null
+    },
+    {
+      "type": "ucla-metadata",
+      "id": "ucla-metadata",
+      "file": "ffm_record_details.html#3"
+    }
+  ]
+]

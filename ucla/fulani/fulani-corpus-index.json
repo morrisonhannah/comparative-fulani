@@ -1,0 +1,25 @@
+{
+  "metadata": {
+    "title": "UCLA Phonology Archive Fulani texts",
+    "description": "Languages from the Fulani family",
+    "researcher": "Hannah Morrison",
+    "license": "https://creativecommons.org/licenses/by-nc/2.0/",
+    "notes": [
+      "The files in the subdirectories below were scraped semi-automatically from the UCLA Phonetics Archive.",
+      "Because table headers are not consistent across languages, eachlanguage has a `<code>-headers.json` file alongside the parser.",
+      "the parser is parse-ucla-xml.js, and can be run with deno (https://deno.land/) and the command $ deno task download [your language code here]",
+      "If the script is re-run on another system, it will download all the .wav files in the appropriate directory."
+    ]
+  },
+  "texts": [
+    "./ffm/ffm_word-list_1962_02-text.json",
+    "./ffm/ffm_word-list_1962_03-text.json",
+    "./ffm/ffm_word-list_1962_01-text.json",
+    "./fuf/fuf_word-list_1979_01-text.json",
+    "./fuh/fuh_word-list_1962_01-text.json",
+    "./fuc/fuc_word-list_1972_01-text.json",
+    "./fuv/fuv_word-list_1962_01-text.json",
+    "./fub/fub_word-list_1962_01-text.json",
+    "./fub/fub_word-list_1960_01-text.json"
+  ]
+}

@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+	<language_name>
+		Fulfulde (Maasina)
+	</language_name>
+	<headers>
+		<entry_header>
+			Recording
+		</entry_header>
+		<lang_name_header>
+			Language:
+		</lang_name_header>
+		<sil_code_header>
+			SIL Code
+		</sil_code_header>
+		<content_header>
+			Recording Contents
+		</content_header>
+		<recording_location_header>
+			Recording Location
+		</recording_location_header>
+		<recording_date_header>
+			Recording Date
+		</recording_date_header>
+		<fieldworkers_header>
+			Fieldworkers
+		</fieldworkers_header>
+		<speakers_header>
+			Speakers
+		</speakers_header>
+		<filename_audio_header>
+			Audio Filename
+		</filename_audio_header>
+		<filename_wav_header>
+			Filename (WAV)
+		</filename_wav_header>
+		<filename_mp3_header>
+			Filename (MP3)
+		</filename_mp3_header>
+		<wav_quality_header>
+			WAV Digitization Quality
+		</wav_quality_header>
+		<mp3_quality_header>
+			MP3 Bit Rate
+		</mp3_quality_header>
+		<original_medium_header>
+			Original Recording Medium
+		</original_medium_header>
+		<wordlist_header>
+			Unicode Word List
+		</wordlist_header>
+		<wordlist_entries_header>
+			Unicode Word List Entries
+		</wordlist_entries_header>
+		<image_tif_header>
+			Tiff Image
+		</image_tif_header>
+		<image_tif2_header>
+			Tiff Image 2
+		</image_tif2_header>
+		<image_jpg_header>
+			JPG Image
+		</image_jpg_header>
+		<image_jpg2_header>
+			JPG Image 2
+		</image_jpg2_header>
+		<tif_quality_header>
+			TIFF Image Quality
+		</tif_quality_header>
+		<jpg_quality_header>
+			JPG Quality
+		</jpg_quality_header>
+		<details_header>
+			Details
+		</details_header>
+		<rights_header>
+			Rights of Access
+		</rights_header>
+		<wordlist_no_repetition_header>
+		</wordlist_no_repetition_header>
+		<link_within_wordlist_header>
+		</link_within_wordlist_header>
+	</headers>
+	<item>
+		<entry>
+			1
+		</entry>
+		<lang_name>
+			Fulfulde (Maasina)
+		</lang_name>
+		<sil_code>
+			FFM
+		</sil_code>
+		<content>
+			Word List
+		</content>
+		<recording_location>
+			Unknown; speaker is from Mopti, Mali
+		</recording_location>
+		<recording_date>
+			12 March, 1962
+		</recording_date>
+		<fieldworkers>
+			Peter Ladefoged
+		</fieldworkers>
+		<speakers>
+			Umaru
+		</speakers>
+		<filename_audio>
+			ffm_word-list_1962_01
+		</filename_audio>
+		<filename_wav>
+			ffm_word-list_1962_01.wav
+		</filename_wav>
+		<filename_mp3>
+			ffm_word-list_1962_01.mp3
+		</filename_mp3>
+		<wav_quality>
+			44.1 K, 16-bit sound depth (bit rate=705 kbps)
+		</wav_quality>
+		<mp3_quality>
+			56 kpbs
+		</mp3_quality>
+		<original_medium>
+			reel tape
+		</original_medium>
+		<wordlist>
+			ffm_word-list_1962_01.html
+		</wordlist>
+		<wordlist_entries>
+			1 - 32
+		</wordlist_entries>
+		<image_tif>
+			ffm_word-list_1962_01.tif
+		</image_tif>
+		<image_tif2>
+			ffm_word-list_1962_02.tif
+		</image_tif2>
+		<image_jpg>
+			ffm_word-list_1962_01.jpg
+		</image_jpg>
+		<image_jpg2>
+			ffm_word-list_1962_02.jpg
+		</image_jpg2>
+		<tif_quality>
+			300 dpi
+		</tif_quality>
+		<jpg_quality>
+			300 dpi
+		</jpg_quality>
+		<details>
+			ffm_record_details.html#1
+		</details>
+		<rights>
+			This work is licensed under a Creative Commons license, available for viewing at http://creativecommons.org/licenses/by-nc/2.0/
+		</rights>
+		<wordlist_no_repetition>
+			ffm_word-list_1962_01.html
+		</wordlist_no_repetition>
+		<link_within_wordlist>
+			ffm_word-list_1962_01.html#1
+		</link_within_wordlist>
+	</item>
+	<item>
+		<entry>
+			2
+		</entry>
+		<lang_name>
+			Fulfulde (Maasina)
+		</lang_name>
+		<sil_code>
+			FFM
+		</sil_code>
+		<content>
+			Word List
+		</content>
+		<recording_location>
+			Unknown; speaker is from Mopti, Mali
+		</recording_location>
+		<recording_date>
+			12 March, 1962
+		</recording_date>
+		<fieldworkers>
+			Peter Ladefoged
+		</fieldworkers>
+		<speakers>
+			Umaru
+		</speakers>
+		<filename_audio>
+			ffm_word-list_1962_02
+		</filename_audio>
+		<filename_wav>
+			ffm_word-list_1962_02.wav
+		</filename_wav>
+		<filename_mp3>
+			ffm_word-list_1962_02.mp3
+		</filename_mp3>
+		<wav_quality>
+			44.1 K, 16-bit sound depth (bit rate=705 kbps)
+		</wav_quality>
+		<mp3_quality>
+			56 kpbs
+		</mp3_quality>
+		<original_medium>
+			reel tape
+		</original_medium>
+		<wordlist>
+			ffm_word-list_1962_02.html
+		</wordlist>
+		<wordlist_entries>
+			1 - 7
+		</wordlist_entries>
+		<image_tif>
+			ffm_word-list_1962_03.tif
+		</image_tif>
+		<image_tif2>
+		</image_tif2>
+		<image_jpg>
+			ffm_word-list_1962_03.jpg
+		</image_jpg>
+		<image_jpg2>
+		</image_jpg2>
+		<tif_quality>
+			300 dpi
+		</tif_quality>
+		<jpg_quality>
+			300 dpi
+		</jpg_quality>
+		<details>
+			ffm_record_details.html#2
+		</details>
+		<rights>
+			This work is licensed under a Creative Commons license, available for viewing at http://creativecommons.org/licenses/by-nc/2.0/
+		</rights>
+		<wordlist_no_repetition>
+			ffm_word-list_1962_02.html
+		</wordlist_no_repetition>
+		<link_within_wordlist>
+			ffm_word-list_1962_02.html#1
+		</link_within_wordlist>
+	</item>
+	<item>
+		<entry>
+			3
+		</entry>
+		<lang_name>
+			Fulfulde (Maasina)
+		</lang_name>
+		<sil_code>
+			FFM
+		</sil_code>
+		<content>
+			Word List
+		</content>
+		<recording_location>
+			Unknown; speaker is from Mopti, Mali
+		</recording_location>
+		<recording_date>
+			12 March, 1962
+		</recording_date>
+		<fieldworkers>
+			Peter Ladefoged
+		</fieldworkers>
+		<speakers>
+			Umaru
+		</speakers>
+		<filename_audio>
+			ffm_word-list_1962_03
+		</filename_audio>
+		<filename_wav>
+			ffm_word-list_1962_03.wav
+		</filename_wav>
+		<filename_mp3>
+			ffm_word-list_1962_03.mp3
+		</filename_mp3>
+		<wav_quality>
+			44.1 K, 16-bit sound depth (bit rate=705 kbps)
+		</wav_quality>
+		<mp3_quality>
+			56 kpbs
+		</mp3_quality>
+		<original_medium>
+			reel tape
+		</original_medium>
+		<wordlist>
+			ffm_word-list_1962_02.html
+		</wordlist>
+		<wordlist_entries>
+			8 - 22
+		</wordlist_entries>
+		<image_tif>
+			ffm_word-list_1962_03.tif
+		</image_tif>
+		<image_tif2>
+		</image_tif2>
+		<image_jpg>
+			ffm_word-list_1962_03.jpg
+		</image_jpg>
+		<image_jpg2>
+		</image_jpg2>
+		<tif_quality>
+			300 dpi
+		</tif_quality>
+		<jpg_quality>
+			300 dpi
+		</jpg_quality>
+		<details>
+			ffm_record_details.html#3
+		</details>
+		<rights>
+			This work is licensed under a Creative Commons license, available for viewing at http://creativecommons.org/licenses/by-nc/2.0/
+		</rights>
+		<wordlist_no_repetition>
+		</wordlist_no_repetition>
+		<link_within_wordlist>
+			ffm_word-list_1962_02.html#8
+		</link_within_wordlist>
+	</item>
+</metadata>
