@@ -1,0 +1,5 @@
+1/25/23:
+Potential problems with audacity audio workflow:
+-low decibel threshold picking up too many unwanted items, but high decibel threshold cutting off starts and ends of target clips
+    - slow and inaccurate(?) to manually adjust those clips
+-some unwanted items getting picked up anyway -- how to delete and exclude, and does this affect the numbering?

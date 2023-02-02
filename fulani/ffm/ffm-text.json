@@ -1,0 +1,69 @@
+{
+  "metadata": {
+    "title": "Fufulde-Maasina word list recitation",
+    "language": "Fafulde-Maasina",
+    "source": "UCLA Phonology Archive",
+    "url": "http://archive.phonetics.ucla.edu/Language/FFM/ffm.html"
+  },
+  "words": [
+    {
+      "number": "1",
+      "transcription": "to paadˀaa",
+      "translation": "Where are you off to?",
+      "sound-number": "2",
+      "end": "6.548482",
+      "start": "3.567136"
+
+    },
+    {
+      "number": "2",
+      "transcription": "o barkidˀii",
+      "translation": "he is fortunate",
+      "sound-number": "3",
+      "end": "14.020895",
+      "start": "11.200000"
+    },
+    {
+      "number": "3",
+      "transcription": "o bˀamtii",
+      "translation": "he lifted",
+      "sound-number": "4",
+      "end": "19.967500",
+      "start": "17.140000"
+    },
+    {
+      "number": "4",
+      "transcription": "no mbaaldudˀaa",
+      "translation": "Have you had a good night?",
+      "sound-number": "5",
+      "end": "23.838086",
+      "start": "26.582036"
+    }
+    {
+      "number": "5",
+      "transcription": "o tawii",
+      "translation": "he found",
+      "sound-number": "6",
+      "end": "32.550129",
+      "start": "29.703280"
+    },
+    {
+      "number": "6",
+      "transcription": "o dawii",
+      "translation": "he started early",
+      "sound-number": "7",
+      "end": "35.980067",
+      "start": "38.792616"
+    },
+    {
+      "number": "7",
+      "transcription": "o dˀaanike",
+      "translation": "he slept",
+      "sound-number": "9",
+      "end": "44.109003",
+      "start": "41.730000"
+    }
+
+
+  ] 
+}

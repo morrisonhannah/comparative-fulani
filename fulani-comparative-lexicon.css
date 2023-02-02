@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  margin:0;
+}
+
+body {
+
+  padding:1em;
+  margin:0;
+  height: 100%;
+  display: grid;
+
+  grid-template:
+    "top-bit  top-bit" auto
+    "sidebar   good-stuff" 1fr
+  /  1fr    4fr;
+
+}
+
+header {
+  grid-area: top-bit;
+  background: firebrick;
+}
+
+aside {
+  grid-area: sidebar;
+  background: thistle;
+}
+
+main {
+  grid-area: good-stuff;
+}
+
+comparative-lexicon#fulani {
+  border: 1px solid;
+  display: grid;
+}
+
+main {
+  background: goldenrod;
+}
+
+html {
+  height: 100%;
+  margin:0;
+}

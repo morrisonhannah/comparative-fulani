@@ -1,0 +1,48 @@
+{
+  "metadata": {
+    "title": "UCLA Phonology Archive Fulani texts",
+    "description": "",
+    "researcher": "Hannah Morrison",
+    "notes": [],
+    "license": "https://creativecommons.org/licenses/by-nc/2.0/",
+    "urls": []
+  },
+  "texts": [
+    {
+      "language": "Adamawa Fulfulde",
+      "uclaUrl": "http://archive.phonetics.ucla.edu/Language/FUB/fub.html",
+      "url": "adamawa_fulfulde-text.json",
+      "code": "fub"
+    },
+    {
+      "language": "Maasina Fulfulde",
+      "uclaUrl": "http://archive.phonetics.ucla.edu/Language/FFM/ffm.html",
+      "url": "maasina_fulfulde-text.json",
+      "code": "ffm"
+    },
+    {
+      "language": "Nigerian dialect Fulfulde",
+      "uclaUrl": "http://archive.phonetics.ucla.edu/Language/FUV/fuv.html",
+      "url": "nigerian_dialect_fulfulde-text.json",
+      "code": "fuv"
+    },
+    {
+      "language": "Western Niger Fulfulde",
+      "uclaUrl": "http://archive.phonetics.ucla.edu/Language/FUH/fuh.html",
+      "url": "western_niger_fulfulde-text.json",
+      "code": "fuh"
+    },
+    {
+      "language": "Pulaar",
+      "uclaUrl": "http://archive.phonetics.ucla.edu/Language/FUC/fuc.html",
+      "url": "pulaar-text.json",
+      "code": "fuc"
+    },
+    {
+      "language": "Pular",
+      "uclaUrl": "http://archive.phonetics.ucla.edu/Language/FUF/fuf.html",
+      "url": "pular-text.json",
+      "code": "fuf"
+    }
+  ]
+}

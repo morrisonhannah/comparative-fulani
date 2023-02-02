@@ -1,0 +1,6 @@
+{
+  "tasks": {
+    "download": "deno run --allow-net --allow-write --allow-read download-fulani.js",
+    "clean": "rmdir ffm fub fuc fuf fuh fuv"
+  }
+}
