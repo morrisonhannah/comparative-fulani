@@ -1,29 +1,74 @@
-class AlignLabels extends HTMLElement {
+
+class AlignLabels extends HTMLElement { 
   constructor(){
     super()
+    this.innerHTML = `
+      <header>
+        <h1>Align-labels</h1>
+      </header>
+      <section id=sentences-section>
+        <h2>Sentences</h2>
+        <div id=sentences></div>
+        </section>
+      <section id=timestamps-section>
+        <h2>Timestamps</h2>
+        <div id=timestamps></div>
+      </section>
+      `
     this.listen()
-  }
-
-  async fetch(url){
-    let response = await fetch(url)
-    let data = await response.json()
-    this.data = data
   }
 
   connectedCallback(){
 
   }
 
+
   static get observedAttributes(){
-    return ["src", "labels-src"]
+    return ["text-src", "labels-src"]
+  }
+  
+  attributeChangedCallback(attribute, oldValue, newValue){
+    if(attribute == "text-src"){
+      this.fetchText(newValue)
+    }
+    if(attribute == "labels-src"){
+      this.fetchLabels(newValue)
+    }
   }
 
-  attributeChangedCallback(attribute, oldValue, newValue){
-    if(attribute == "src"){
-      this.fetch(newValue)
-    }
-    if(attribute == "labels-src")
+  async fetchText(url){
+    let response = await fetch(url)
+    let text = await response.json()
+    this.renderText(text)
   }
+
+  async fetchLabels(url){
+    let response = await fetch(url)
+    let plaintextTextLabels = await response.text()
+    this.renderLabels(plaintextTextLabels)
+  }
+
+  renderLabels(plaintextTextLabels){
+    plaintextTextLabels = plaintextTextLabels.trim()
+    let labelLines = plaintextTextLabels.split("\n")
+
+    let timestamps = labelLines.map(labelLine => {
+      let [start, end, label] = labelLine.split("\t")
+      
+      return {
+        start: parseFloat(start),
+        end: parseFloat(end),
+        label: label
+      }
+    })
+
+    console.log(timestamps)
+  }
+
+  renderText(){
+
+  }
+
 
   set data(data){
     this.labels = data.labels

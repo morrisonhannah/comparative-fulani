@@ -1,4 +1,18 @@
 
 align-labels {
-  display: block;
+  display: grid;
+  border: 1px solid chartreuse;
+  grid-template: 
+    "header     header" auto
+     "sentences timestamps" 1fr
+  /   1fr        1fr;
 }
+
+align-labels header {
+  grid-area: header;
+}
+
+align-labels section {
+  border: 1px solid fuchsia;
+}
+
