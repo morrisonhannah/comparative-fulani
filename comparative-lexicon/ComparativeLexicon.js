@@ -2,7 +2,7 @@ class ComparativeLexicon extends HTMLElement {
   constructor(){
     super()
     this.innerHTML = `
-stuff here from component  🌍🌍🌍
+stuff here from component o boi  🌍🌍🌍
     `
     this.listen()
   }

@@ -37,6 +37,10 @@ header {
   background: firebrick;
 }
 
+body > header > h1 {
+  /* margin: 0; */
+}
+
 aside {
   grid-area: sidebar;
   background: thistle;

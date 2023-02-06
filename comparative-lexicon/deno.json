@@ -1,0 +1,5 @@
+{
+  "tasks": {
+    "build": "pandoc -f markdown -t html --css comparative-lexicon-docs.css --section-divs --template=template.html -o comparative-lexicon-docs.html comparative-lexicon-docs.md"
+  }
+}

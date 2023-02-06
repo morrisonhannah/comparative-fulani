@@ -1,0 +1,456 @@
+{
+  "metadata": {
+    "language": "Fulfulde (Nigerian)",
+    "speakers": "Y. Abubakar",
+    "fieldworkers": "Peter Ladefoged",
+    "recordingDate": "26 February, 1962",
+    "location": "Unknown; speaker is from Gombe, Bauchi Province, Nigeria",
+    "iso630_3": "fuv",
+    "ucla": {
+      "entry": "1",
+      "lang_name": "Fulfulde (Nigerian)",
+      "sil_code": "fuv",
+      "content": "Word List",
+      "recording_location": "Unknown; speaker is from Gombe, Bauchi Province, Nigeria",
+      "recording_date": "26 February, 1962",
+      "fieldworkers": "Peter Ladefoged",
+      "speakers": "Y. Abubakar",
+      "url_audio": "http://archive.phonetics.ucla.edu/Language/FUV/fuv_word-list_1962_01",
+      "filename_audio": "fuv_word-list_1962_01",
+      "url_wav": "http://archive.phonetics.ucla.edu/Language/FUV/fuv_word-list_1962_01.wav",
+      "filename_wav": "fuv_word-list_1962_01.wav",
+      "url_mp3": "http://archive.phonetics.ucla.edu/Language/FUV/fuv_word-list_1962_01.mp3",
+      "filename_mp3": "fuv_word-list_1962_01.mp3",
+      "wav_quality": "44.1 K, 16-bit sound depth (bit rate=705 kbps)",
+      "mp3_quality": "56 kpbs",
+      "original_medium": "reel tape",
+      "url_wordlist": "http://archive.phonetics.ucla.edu/Language/FUV/fuv_word-list_1962_01.html",
+      "wordlist": "fuv_word-list_1962_01.html",
+      "wordlist_entries": {
+        "start": 1,
+        "end": 28
+      },
+      "url_image_tif": "http://archive.phonetics.ucla.edu/Language/FUV/fuv_word-list_1962_01.tif",
+      "image_tif": "fuv_word-list_1962_01.tif",
+      "url_image_tif2": "http://archive.phonetics.ucla.edu/Language/FUV/fuv_word-list_1962_02.tif",
+      "image_tif2": "fuv_word-list_1962_02.tif",
+      "url_image_jpg": "http://archive.phonetics.ucla.edu/Language/FUV/fuv_word-list_1962_01.jpg",
+      "image_jpg": "fuv_word-list_1962_01.jpg",
+      "image_jpg2": "fuv_word-list_1962_02.jpg",
+      "tif_quality": "300 dpi",
+      "jpg_quality": "300 dpi",
+      "details": "fuv_record_details.html#1",
+      "rights": "This work is licensed under a Creative Commons license, available for viewing at http://creativecommons.org/licenses/by-nc/2.0/",
+      "wordlist_no_repetition": "fuv_word-list_1962_01.html",
+      "link_within_wordlist": "fuv_word-list_1962_01.html#1"
+    },
+    "id": "fuv_word-list_1962_01"
+  },
+  "sentences": [
+    {
+      "id": "1",
+      "transcription": "to paadˀaa",
+      "translation": "Where are you off to?",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuv_word-list_1962_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "transcription": "o barkidˀii",
+      "translation": "he is fortunate",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuv_word-list_1962_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "transcription": "o bˀamtii",
+      "translation": "he lifted",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuv_word-list_1962_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "transcription": "no mbaaldudˀaa",
+      "translation": "Have you had a good night?",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuv_word-list_1962_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "transcription": "o tawii",
+      "translation": "he found",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuv_word-list_1962_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "6",
+      "transcription": "o dawii",
+      "translation": "he started early",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuv_word-list_1962_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "7",
+      "transcription": "o dˀaanike",
+      "translation": "he slept",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuv_word-list_1962_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "8",
+      "transcription": "",
+      "translation": "it's smelly",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuv_word-list_1962_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "9",
+      "transcription": "o ndaarii",
+      "translation": "he looked",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuv_word-list_1962_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "10",
+      "transcription": "o d̠ʑalii",
+      "translation": "he laughed",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuv_word-list_1962_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "11",
+      "transcription": "",
+      "translation": "they failed",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuv_word-list_1962_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "12",
+      "transcription": "o ɡooŋdˀii",
+      "translation": "he told the truth",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuv_word-list_1962_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "13",
+      "transcription": "o ŋatii",
+      "translation": "he bit",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuv_word-list_1962_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "14",
+      "transcription": "o ʔaawii",
+      "translation": "he planted",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuv_word-list_1962_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "15",
+      "transcription": "o mahii",
+      "translation": "he built",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuv_word-list_1962_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "16",
+      "transcription": "o naatii",
+      "translation": "he entered",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuv_word-list_1962_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "17",
+      "transcription": "o ɲaamii",
+      "translation": "he ate",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuv_word-list_1962_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "18",
+      "transcription": "o fabˀbˀii",
+      "translation": "he delayed",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuv_word-list_1962_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "19",
+      "transcription": "o warii",
+      "translation": "he came",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuv_word-list_1962_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "21",
+      "transcription": "o ʃaawii",
+      "translation": "he wrapped",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuv_word-list_1962_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "22",
+      "transcription": "o haarii",
+      "translation": "he is full",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuv_word-list_1962_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "23",
+      "transcription": "",
+      "translation": "he stirred",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuv_word-list_1962_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "24",
+      "transcription": "",
+      "translation": "he is white",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuv_word-list_1962_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "25",
+      "transcription": "",
+      "translation": "How tired are you?",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuv_word-list_1962_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "26",
+      "transcription": "o jarii",
+      "translation": "he drank",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuv_word-list_1962_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "27",
+      "transcription": "",
+      "translation": "he asked",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuv_word-list_1962_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "28",
+      "transcription": "toje n̠d̠ʑaanodˀaa",
+      "translation": "Where have you been?",
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuv_word-list_1962_01.wav",
+            "start": 0,
+            "end": 0
+          }
+        ]
+      }
+    }
+  ]
+}
