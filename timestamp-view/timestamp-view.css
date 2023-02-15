@@ -1,0 +1,9 @@
+
+timestamp-view {
+  display: block;
+}
+
+
+timestamp-view.selected {
+  background-color: lemonchiffon;
+}

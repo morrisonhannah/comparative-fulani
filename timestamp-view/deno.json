@@ -1,0 +1,5 @@
+{
+  "tasks": {
+    "build": "pandoc -f markdown -t html --css timestamp-view-docs.css --section-divs --template=template.html -o timestamp-view-docs.html timestamp-view-docs.md"
+  }
+}
