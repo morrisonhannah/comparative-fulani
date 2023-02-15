@@ -75,3 +75,8 @@ align-labels .timestamp:hover {
   background: hsla(0,0%,0%,.2);
   
 }
+
+
+align-labels .selected {
+  background-color: lemonchiffon;
+}

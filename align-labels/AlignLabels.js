@@ -73,7 +73,7 @@ class AlignLabels extends HTMLElement {
   }
 
   renderTimestamps(timestamps){
-    console.table(timestamps)
+    // console.table(timestamps)
     timestamps.forEach((timestamp,i) => {
       let div = document.createElement('div')
       div.id = `timestamp_${i}`
@@ -113,11 +113,21 @@ class AlignLabels extends HTMLElement {
   }
 
   listen(){
-    this.addEventListener('click', clickEvent => {
-      if(clickEvent.target.matches()){
-
+    this.addEventListener('click', e => {
+      if(e.target.matches('sentence-view')){
+        document.querySelectorAll('sentence-view.selected')
+          .forEach(el => el.classList.remove('selected'))
+        
+        e.target.closest('sentence-view').classList.add("selected")
       }
     })
+    
+    this.addEventListener('click', e => {
+      if(e.target.closest('.timestamp')){ 
+        e.target.closest('.timestamp').classList.toggle("selected")
+      }
+    })
+    
   }
 }
 
