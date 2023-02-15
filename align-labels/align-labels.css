@@ -14,5 +14,64 @@ align-labels header {
 
 align-labels section {
   border: 1px solid fuchsia;
+  padding:1em;
 }
 
+align-labels #timestamps {
+  display: table;
+}
+
+align-labels #timestamps .timestamp {
+  display: table-row;
+  cursor: grab;
+}
+
+align-labels #timestamps .timestamp span {
+  display: table-cell;
+  text-align: right;
+  padding:0 1em;
+  font-family: sans-serif;
+}
+
+
+* {
+  box-sizing: border-box;
+  
+}
+
+html, body {
+  margin:0;
+  padding:0;
+  height: 100vh;
+  overflow-y: scroll;
+}
+
+align-labels,
+align-labels section {
+  height: 100%;
+  overflow-y: scroll;
+}
+
+.selected {
+  background-color: lemonchiffon;
+}
+
+align-labels sentence-view {
+  
+}
+
+
+align-labels sentence-view:hover {
+  
+}
+
+
+
+align-labels .timestamp {
+  
+}
+
+align-labels .timestamp:hover {
+  background: hsla(0,0%,0%,.2);
+  
+}

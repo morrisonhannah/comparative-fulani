@@ -1,3 +1,4 @@
+import {TextView} from 'https://docling.net/book/docling/text/text-view/TextView.js'
 
 class AlignLabels extends HTMLElement { 
   constructor(){
@@ -8,7 +9,7 @@ class AlignLabels extends HTMLElement {
       </header>
       <section id=sentences-section>
         <h2>Sentences</h2>
-        <div id=sentences></div>
+        <text-view></text-view>
         </section>
       <section id=timestamps-section>
         <h2>Timestamps</h2>
@@ -39,18 +40,24 @@ class AlignLabels extends HTMLElement {
   async fetchText(url){
     let response = await fetch(url)
     let text = await response.json()
+    console.log(JSON.stringify(text))
+    this.text = text
     this.renderText(text)
   }
 
   async fetchLabels(url){
     let response = await fetch(url)
     let plaintextTextLabels = await response.text()
-    this.renderLabels(plaintextTextLabels)
+    let timestamps = this.parseLabels(plaintextTextLabels)
+
+    this.renderTimestamps(timestamps)
   }
 
-  renderLabels(plaintextTextLabels){
-    plaintextTextLabels = plaintextTextLabels.trim()
-    let labelLines = plaintextTextLabels.split("\n")
+  parseLabels(plaintextTextLabels){
+    console.log(plaintextTextLabels.trim)
+    let labelLines = plaintextTextLabels
+      .trim()
+      .split("\n")
 
     let timestamps = labelLines.map(labelLine => {
       let [start, end, label] = labelLine.split("\t")
@@ -62,11 +69,29 @@ class AlignLabels extends HTMLElement {
       }
     })
 
-    console.log(timestamps)
+    return timestamps
   }
 
-  renderText(){
+  renderTimestamps(timestamps){
+    console.table(timestamps)
+    timestamps.forEach((timestamp,i) => {
+      let div = document.createElement('div')
+      div.id = `timestamp_${i}`
+      div.classList.add('timestamp')
+      div.innerHTML += `
+        <span class="start">${timestamp.start.toFixed(2)}</span> 
+        <span class="start">${timestamp.end.toFixed(2)}</span>
+      `
+      this.querySelector('section#timestamps-section div#timestamps')
+        .append(div)
 
+    })
+
+  }
+
+  renderText(text){ 
+    text.sentences.forEach(sentence => sentence.metadata = {} )
+    this.querySelector('text-view').data = text
   }
 
 
