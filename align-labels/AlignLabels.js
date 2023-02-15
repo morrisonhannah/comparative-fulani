@@ -78,6 +78,8 @@ class AlignLabels extends HTMLElement {
       let div = document.createElement('div')
       div.id = `timestamp_${i}`
       div.classList.add('timestamp')
+      div.dataset.start = timestamp.start
+      div.dataset.end = timestamp.end
       div.innerHTML += `
         <span class="start">${timestamp.start.toFixed(2)}</span> 
         <span class="start">${timestamp.end.toFixed(2)}</span>
@@ -115,7 +117,7 @@ class AlignLabels extends HTMLElement {
   listen(){
     this.addEventListener('click', e => {
       if(e.target.matches('sentence-view')){
-        document.querySelectorAll('sentence-view.selected')
+        this.querySelectorAll('.selected')
           .forEach(el => el.classList.remove('selected'))
         
         e.target.closest('sentence-view').classList.add("selected")
@@ -125,7 +127,28 @@ class AlignLabels extends HTMLElement {
     this.addEventListener('click', e => {
       if(e.target.closest('.timestamp')){ 
         e.target.closest('.timestamp').classList.toggle("selected")
+
+        let timestampDiv = e.target.closest('.timestamp')
+
+
+        let timestamp = {
+          start: parseFloat(timestampDiv.dataset.start),
+          end: parseFloat(timestampDiv.dataset.end)
+        }
+
+        if(!this.querySelector('sentence-view.selected')){ return }
+
+        let sentence = this.querySelector('sentence-view.selected').sentence
+  
+        if(!sentence.metadata.links){ sentence.metadata.links = [] }
+        sentence.metadata.links.push({
+          type: 'timestamp',
+          timestamp
+        })
       }
+    })
+
+    this.addEventListener('timestamp-selected', timestampSelectedEvent => {
     })
     
   }
