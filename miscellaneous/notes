@@ -3,3 +3,12 @@ Potential problems with audacity audio workflow:
 -low decibel threshold picking up too many unwanted items, but high decibel threshold cutting off starts and ends of target clips
     - slow and inaccurate(?) to manually adjust those clips
 -some unwanted items getting picked up anyway -- how to delete and exclude, and does this affect the numbering?
+
+
+fuf
+- 11/11b sounds are split up because of the alternate translations
+-same with sound 34, sound 35 - two diff versions of a word
+-42, 43
+-we should split these up, the english glosses
+63, 64
+-sound 69, 69b
