@@ -120,13 +120,11 @@ class AlignLabels extends HTMLElement {
       }
     })
     
-    this.addEventListener('click', e => {
-      if(e.target.closest('timestamp-view')){ 
-        let timestampView = e.target.closest('timestamp-view')
+    this.addEventListener('click', clickEvent => {
+      if(clickEvent.target.closest('timestamp-view')){ 
+        let timestampView = clickEvent.target.closest('timestamp-view')
 
-        e.target.closest('timestamp-view').classList.toggle("selected")
-
-
+        clickEvent.target.closest('timestamp-view').classList.toggle("selected")
 
         let timestamp = {
           start: parseFloat(timestampView.dataset.start),
