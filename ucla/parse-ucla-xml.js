@@ -1,10 +1,47 @@
-import {exists} from './exists.js'
 import { DOMParser } from "https://deno.land/x/deno_dom/deno-dom-wasm.ts"
 import {tableToJSON} from './table-to-json/table-to-json.js'
 import {downloadFile} from './download-file.js'
 
+/*
 
-// fetches xml data ? 
+A rare annoyance in Deno: there is no simple way to ask
+whether a file or directory exists, so we use this 
+utility function.
+
+*/
+export const exists = async filename => {
+  try {
+    await Deno.stat(filename)
+    // successful, file or directory must exist
+    return true
+  } catch (error) {
+    if (error instanceof Deno.errors.NotFound) {
+      // file or directory does not exist
+      return false
+    } else {
+      // unexpected error, maybe permissions, pass it along
+      throw error
+    }
+  }
+}
+
+/*
+
+Each language in the  UCLA Phonetics Archive has a 
+metadata file,  e.g.:
+
+http://archive.phonetics.ucla.edu/Language/FFM/ffm.xml
+
+This file turns is the best metadata file in the bundles, because
+it doesn’t have any empty cells (compare <code>_metadata.xls and 
+ffm_record_details.html). 
+
+So we start here by downloading and parsing the file, creating a
+metadata object for each item. The resulting array of objects is
+awkwardly called `metadatas`. 
+
+
+*/
 let parseMetadataIndex = async xmlIndexUrl => { 
   let response = await fetch(xmlIndexUrl)
 
@@ -39,8 +76,24 @@ let parseMetadataIndex = async xmlIndexUrl => {
           value = value.toLowerCase() // upper case language code? blech
         }
 
-        // wordlist_entries gives a range of sentences which have 
-        // the current metadata
+        /*
+        wordlist_entries gives a range of sentences which have 
+        the current metadata:
+
+        Consider the second wordlist for Maasina Fulani:
+
+        http://archive.phonetics.ucla.edu/Language/FFM/ffm_word-list_1962_02.html
+
+        <wordlist_entries>1 - 7</wordlist_entries>
+
+        this occurs in Item 2, which is recording ffm_word-list_1962_02.wav
+
+        This means that the first 7 words in the wordlist are recorded in one audio file, and the remaining sentences are in recording 3:
+
+        <wordlist_entries>8 - 22</wordlist_entries>
+
+        this one is ffm_word-list_1962_03.wav
+        */
         if(tagName == 'wordlist_entries'){
           let [start, end] = value.split(` - `)
             .map(n => parseInt(n))
@@ -55,7 +108,13 @@ let parseMetadataIndex = async xmlIndexUrl => {
   return metadatas
 }
 
+/*
 
+  Each metadata object has all the information we need in order
+  to download the relevant files, parse them, and reshape the
+  data.
+
+*/
 let metadatasToTexts = async metadatas => {
   let texts = []
 
@@ -67,23 +126,32 @@ let metadatasToTexts = async metadatas => {
   return texts
 }
 
+/*
 
+Because the column headers across tables in the UCLA
+archive are variable, we need a place to specify them
+in a semi-standardized way. 
+
+*/
 let readHeaders = async code => {
-  let headersFileName = `${code}-headers.json`
-  if(await exists(headersFileName)){
-    let json = await Deno.readTextFile(headersFileName)
-    let headers = JSON.parse(json)
-
-    return headers
+  let text = await Deno.readTextFile(headersFileName)
+  let allHeaders = JSON.parse(text)
+  if(allHeaders[code]){
+    return allHeaders[code]
   } else {
     return ["id", "transcription", "translation"]
   }
 }
 
-// take a metadata object, fetch sentences from HTML table
-// create text object, return
-// metadata => {metadata: {}, sentences: []}
-// fetch html data
+/*
+
+take a metadata object, 
+fetch sentences from HTML table,
+create text object, return
+metadata => {metadata: {}, sentences: []}
+fetch html data
+
+*/
 let parseTextHTML = async (metadata) => { 
   let htmlTextUrl = metadata.url_wordlist
 
@@ -93,14 +161,26 @@ let parseTextHTML = async (metadata) => {
   let dom = new DOMParser().parseFromString(html, 'text/html')
 
   let headers = await readHeaders(metadata.sil_code)
-
   
   let table = dom.querySelector('table')
-  let results = tableToJSON(table, headers)
 
-  let sentences = results.data
+  let result = tableToJSON(table, headers)
+
+  let sentences = result.data
+  /*
+
+    An array of objects, one per sentence.
+
+  */
+
+  /* 
+  TODO: I think this is wrong
+  */ 
   // associate metadata with range of sentences
-  sentences = sentences.slice(metadata.wordlist_entries.start - 1, metadata.wordlist_entries.end)
+  sentences = sentences.slice(
+    metadata.wordlist_entries.start - 1, 
+    metadata.wordlist_entries.end
+  )
 
   let text = { metadata, sentences }
 
@@ -109,9 +189,10 @@ let parseTextHTML = async (metadata) => {
   return text
 }
 
-// reorg json structure
+// Use camel case and standardize keys
 let mungeText = text => {
 
+  // destructure text.metadata to assign new labels
   let {
     lang_name: language,
     speakers: speakers,
@@ -167,7 +248,7 @@ let directory = `${code}`
 
 for await(let text of texts){
   let path = `./${directory}/${text.metadata.id}-text.json`
-  console.log(await exists(path))
+
   await Deno.writeTextFile(path, JSON.stringify(text, null, 2))
   await downloadAudio(text)
 }

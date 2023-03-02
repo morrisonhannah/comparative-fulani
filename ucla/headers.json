@@ -1,0 +1,35 @@
+{
+  "ffm": [
+    "id",
+    "transcription",
+    "translation"
+  ],
+  "fub": [
+    "entry",
+    "transcription",
+    "translation"
+  ],
+  "fuc": [
+    "entry",
+    "sound",
+    "transcription",
+    "translation"
+  ],
+  "fuf": [
+    "id",
+    "orthographic",
+    "transcription",
+    "translation",
+    "translationFrench"
+  ],
+  "fuh": [
+    "id",
+    "transcription",
+    "translation"
+  ],
+  "fuv": [
+    "id",
+    "transcription",
+    "translation"
+  ]
+}
