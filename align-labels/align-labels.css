@@ -21,12 +21,12 @@ align-labels #timestamps {
   display: table;
 }
 
-align-labels #timestamps .timestamp {
+align-labels #timestamps timestamp-view {
   display: table-row;
   cursor: grab;
 }
 
-align-labels #timestamps .timestamp span {
+align-labels #timestamps timestamp-view span {
   display: table-cell;
   text-align: right;
   padding:0 1em;
@@ -71,9 +71,8 @@ align-labels .timestamp {
   
 }
 
-align-labels .timestamp:hover {
-  background: hsla(0,0%,0%,.2);
-  
+align-labels timestamp-view:hover {
+  background: lemonchiffon;  
 }
 
 

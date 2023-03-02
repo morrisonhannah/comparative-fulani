@@ -1,3 +1,4 @@
+import {TimestampView} from '../timestamp-view/TimestampView.js'
 import {TextView} from 'https://docling.net/book/docling/text/text-view/TextView.js'
 
 class AlignLabels extends HTMLElement { 
@@ -54,7 +55,6 @@ class AlignLabels extends HTMLElement {
   }
 
   parseLabels(plaintextTextLabels){
-    console.log(plaintextTextLabels.trim)
     let labelLines = plaintextTextLabels
       .trim()
       .split("\n")
@@ -75,17 +75,12 @@ class AlignLabels extends HTMLElement {
   renderTimestamps(timestamps){
     // console.table(timestamps)
     timestamps.forEach((timestamp,i) => {
-      let div = document.createElement('div')
-      div.id = `timestamp_${i}`
-      div.classList.add('timestamp')
-      div.dataset.start = timestamp.start
-      div.dataset.end = timestamp.end
-      div.innerHTML += `
-        <span class="start">${timestamp.start.toFixed(2)}</span> 
-        <span class="start">${timestamp.end.toFixed(2)}</span>
-      `
+      let timestampView = new TimestampView()
+      timestampView.data = timestamp
+      timestampView.id = `timestamp_${i}`
+
       this.querySelector('section#timestamps-section div#timestamps')
-        .append(div)
+        .append(timestampView)
 
     })
 
@@ -116,24 +111,24 @@ class AlignLabels extends HTMLElement {
 
   listen(){
     this.addEventListener('click', e => {
-      if(e.target.matches('sentence-view')){
+      let sentenceView = e.target.closest('sentence-view')
+      if(sentenceView){
         this.querySelectorAll('.selected')
           .forEach(el => el.classList.remove('selected'))
         
-        e.target.closest('sentence-view').classList.add("selected")
+        sentenceView.classList.add("selected")
       }
     })
     
-    this.addEventListener('click', e => {
-      if(e.target.closest('.timestamp')){ 
-        e.target.closest('.timestamp').classList.toggle("selected")
+    this.addEventListener('click', clickEvent => {
+      if(clickEvent.target.closest('timestamp-view')){ 
+        let timestampView = clickEvent.target.closest('timestamp-view')
 
-        let timestampDiv = e.target.closest('.timestamp')
-
+        clickEvent.target.closest('timestamp-view').classList.toggle("selected")
 
         let timestamp = {
-          start: parseFloat(timestampDiv.dataset.start),
-          end: parseFloat(timestampDiv.dataset.end)
+          start: parseFloat(timestampView.dataset.start),
+          end: parseFloat(timestampView.dataset.end)
         }
 
         if(!this.querySelector('sentence-view.selected')){ return }
