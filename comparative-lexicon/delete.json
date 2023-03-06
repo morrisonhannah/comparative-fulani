@@ -1,0 +1,94 @@
+data = {
+  language: "French",
+  words: [{
+      form: "chien",
+      gloss: "dog"
+    },
+    {
+      form: "chat",
+      gloss: "cat"
+    },
+    {
+      form: "oiseau",
+      gloss: "bird"
+    },
+    {
+      form: "courir",
+      gloss: "run"
+    },
+    {
+      form: "sauter",
+      gloss: "jump"
+    },
+  ],
+}, {
+  language: "Spanish",
+  words: [{
+      form: "perro",
+      gloss: "dog"
+    },
+    {
+      form: "gato",
+      gloss: "cat"
+    },
+    {
+      form: "pájaro",
+      gloss: "bird"
+    },
+    {
+      form: "correr",
+      gloss: "run"
+    },
+    {
+      form: "saltar",
+      gloss: "jump"
+    },
+  ],
+}, {
+  language: "Romanian",
+  words: [{
+      form: "câine",
+      gloss: "dog"
+    },
+    {
+      form: "pisică",
+      gloss: "cat"
+    },
+    {
+      form: "pasăre",
+      gloss: "bird"
+    },
+    {
+      form: "alerga",
+      gloss: "run"
+    },
+    {
+      form: "sări",
+      gloss: "jump"
+    },
+  ],
+}, {
+  language: "Basque",
+  words: [{
+      form: "txakurra",
+      gloss: "dog"
+    },
+    {
+      form: "katu",
+      gloss: "cat"
+    },
+    {
+      form: "txoria",
+      gloss: "bird"
+    },
+    {
+      form: "korrika",
+      gloss: "run"
+    },
+    {
+      form: "salto",
+      gloss: "jump"
+    },
+  ],
+
+}

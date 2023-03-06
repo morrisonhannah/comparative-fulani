@@ -1,0 +1,348 @@
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>&lt;sample-component&gt;</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { color: #008000; } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { color: #008000; font-weight: bold; } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <link rel="stylesheet" href="comparative-lexicon-docs.css" />
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">&lt;sample-component&gt;</h1>
+</header>
+<section id="comparative-lexicon" class="level1">
+<h1>&lt;comparative-lexicon&gt;</h1>
+</section>
+<main>
+<section id="example" class="level2">
+<h2>Example</h2>
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode html"><code class="sourceCode html"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="kw">&lt;comparative-lexicon</span> <span class="er">id</span><span class="ot">=</span><span class="st">romance</span><span class="kw">&gt;</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="kw">&lt;/comparative-lexicon&gt;</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="kw">&lt;script</span><span class="ot"> type=</span><span class="st">module</span><span class="kw">&gt;</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> {ComparativeLexicon} <span class="im">from</span> <span class="st">&#39;./ComparativeLexicon.js&#39;</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="kw">let</span> comparativeLexicon <span class="op">=</span> <span class="bu">document</span><span class="op">.</span><span class="fu">querySelector</span>(<span class="st">&#39;comparative-lexicon#romance&#39;</span>)</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>comparativeLexicon</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>  <span class="op">.</span><span class="at">data</span> <span class="op">=</span> [{</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>      <span class="st">&quot;language&quot;</span><span class="op">:</span> <span class="st">&quot;French&quot;</span><span class="op">,</span></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>      <span class="st">&quot;words&quot;</span><span class="op">:</span> [</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>        { <span class="st">&quot;form&quot;</span><span class="op">:</span> <span class="st">&quot;chien&quot;</span><span class="op">,</span> <span class="st">&quot;gloss&quot;</span><span class="op">:</span> <span class="st">&quot;dog&quot;</span> }<span class="op">,</span></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>        { <span class="st">&quot;form&quot;</span><span class="op">:</span> <span class="st">&quot;chat&quot;</span><span class="op">,</span> <span class="st">&quot;gloss&quot;</span><span class="op">:</span> <span class="st">&quot;cat&quot;</span> }<span class="op">,</span></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>        { <span class="st">&quot;form&quot;</span><span class="op">:</span> <span class="st">&quot;courir&quot;</span><span class="op">,</span> <span class="st">&quot;gloss&quot;</span><span class="op">:</span> <span class="st">&quot;run&quot;</span> }<span class="op">,</span></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>        { <span class="st">&quot;form&quot;</span><span class="op">:</span> <span class="st">&quot;sauter&quot;</span><span class="op">,</span> <span class="st">&quot;gloss&quot;</span><span class="op">:</span> <span class="st">&quot;jump&quot;</span> }</span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>      ]</span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>    }<span class="op">,</span></span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>    {</span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>      <span class="st">&quot;language&quot;</span><span class="op">:</span> <span class="st">&quot;Spanish&quot;</span><span class="op">,</span></span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>      <span class="st">&quot;words&quot;</span><span class="op">:</span> [</span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>        { <span class="st">&quot;form&quot;</span><span class="op">:</span> <span class="st">&quot;perro&quot;</span><span class="op">,</span> <span class="st">&quot;gloss&quot;</span><span class="op">:</span> <span class="st">&quot;dog&quot;</span> }<span class="op">,</span></span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a>        { <span class="st">&quot;form&quot;</span><span class="op">:</span> <span class="st">&quot;gato&quot;</span><span class="op">,</span> <span class="st">&quot;gloss&quot;</span><span class="op">:</span> <span class="st">&quot;cat&quot;</span> }<span class="op">,</span></span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a>        { <span class="st">&quot;form&quot;</span><span class="op">:</span> <span class="st">&quot;pájaro&quot;</span><span class="op">,</span> <span class="st">&quot;gloss&quot;</span><span class="op">:</span> <span class="st">&quot;bird&quot;</span> }<span class="op">,</span></span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a>        { <span class="st">&quot;form&quot;</span><span class="op">:</span> <span class="st">&quot;correr&quot;</span><span class="op">,</span> <span class="st">&quot;gloss&quot;</span><span class="op">:</span> <span class="st">&quot;run&quot;</span> }<span class="op">,</span></span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a>        { <span class="st">&quot;form&quot;</span><span class="op">:</span> <span class="st">&quot;saltar&quot;</span><span class="op">,</span> <span class="st">&quot;gloss&quot;</span><span class="op">:</span> <span class="st">&quot;jump&quot;</span> }</span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a>      ]</span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a>    }<span class="op">,</span></span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a>    {</span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a>      <span class="st">&quot;language&quot;</span><span class="op">:</span> <span class="st">&quot;Romanian&quot;</span><span class="op">,</span></span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a>      <span class="st">&quot;words&quot;</span><span class="op">:</span> [</span>
+<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a>        { <span class="st">&quot;form&quot;</span><span class="op">:</span> <span class="st">&quot;câine&quot;</span><span class="op">,</span> <span class="st">&quot;gloss&quot;</span><span class="op">:</span> <span class="st">&quot;dog&quot;</span> }<span class="op">,</span></span>
+<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a>        { <span class="st">&quot;form&quot;</span><span class="op">:</span> <span class="st">&quot;pisică&quot;</span><span class="op">,</span> <span class="st">&quot;gloss&quot;</span><span class="op">:</span> <span class="st">&quot;cat&quot;</span> }<span class="op">,</span></span>
+<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a>        { <span class="st">&quot;form&quot;</span><span class="op">:</span> <span class="st">&quot;pasăre&quot;</span><span class="op">,</span> <span class="st">&quot;gloss&quot;</span><span class="op">:</span> <span class="st">&quot;bird&quot;</span> }<span class="op">,</span></span>
+<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a>        { <span class="st">&quot;form&quot;</span><span class="op">:</span> <span class="st">&quot;alerga&quot;</span><span class="op">,</span> <span class="st">&quot;gloss&quot;</span><span class="op">:</span> <span class="st">&quot;run&quot;</span> }<span class="op">,</span></span>
+<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a>        { <span class="st">&quot;form&quot;</span><span class="op">:</span> <span class="st">&quot;sări&quot;</span><span class="op">,</span> <span class="st">&quot;gloss&quot;</span><span class="op">:</span> <span class="st">&quot;jump&quot;</span> }</span>
+<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a>      ]</span>
+<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a>    }<span class="op">,</span></span>
+<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a>    {</span>
+<span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a>      <span class="st">&quot;language&quot;</span><span class="op">:</span> <span class="st">&quot;Basque&quot;</span><span class="op">,</span></span>
+<span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a>      <span class="st">&quot;words&quot;</span><span class="op">:</span> [</span>
+<span id="cb1-41"><a href="#cb1-41" aria-hidden="true" tabindex="-1"></a>        { <span class="st">&quot;form&quot;</span><span class="op">:</span> <span class="st">&quot;txakurra&quot;</span><span class="op">,</span> <span class="st">&quot;gloss&quot;</span><span class="op">:</span> <span class="st">&quot;dog&quot;</span> }<span class="op">,</span></span>
+<span id="cb1-42"><a href="#cb1-42" aria-hidden="true" tabindex="-1"></a>        { <span class="st">&quot;form&quot;</span><span class="op">:</span> <span class="st">&quot;katu&quot;</span><span class="op">,</span> <span class="st">&quot;gloss&quot;</span><span class="op">:</span> <span class="st">&quot;cat&quot;</span> }<span class="op">,</span></span>
+<span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a>        { <span class="st">&quot;form&quot;</span><span class="op">:</span> <span class="st">&quot;txoria&quot;</span><span class="op">,</span> <span class="st">&quot;gloss&quot;</span><span class="op">:</span> <span class="st">&quot;bird&quot;</span> }<span class="op">,</span></span>
+<span id="cb1-44"><a href="#cb1-44" aria-hidden="true" tabindex="-1"></a>        { <span class="st">&quot;form&quot;</span><span class="op">:</span> <span class="st">&quot;korrika&quot;</span><span class="op">,</span> <span class="st">&quot;gloss&quot;</span><span class="op">:</span> <span class="st">&quot;run&quot;</span> }<span class="op">,</span></span>
+<span id="cb1-45"><a href="#cb1-45" aria-hidden="true" tabindex="-1"></a>        { <span class="st">&quot;form&quot;</span><span class="op">:</span> <span class="st">&quot;salto&quot;</span><span class="op">,</span> <span class="st">&quot;gloss&quot;</span><span class="op">:</span> <span class="st">&quot;jump&quot;</span> }</span>
+<span id="cb1-46"><a href="#cb1-46" aria-hidden="true" tabindex="-1"></a>      ]</span>
+<span id="cb1-47"><a href="#cb1-47" aria-hidden="true" tabindex="-1"></a>    }<span class="op">,</span> </span>
+<span id="cb1-48"><a href="#cb1-48" aria-hidden="true" tabindex="-1"></a>    {</span>
+<span id="cb1-49"><a href="#cb1-49" aria-hidden="true" tabindex="-1"></a>      <span class="st">&quot;language&quot;</span><span class="op">:</span> <span class="st">&quot;Portuguese&quot;</span><span class="op">,</span></span>
+<span id="cb1-50"><a href="#cb1-50" aria-hidden="true" tabindex="-1"></a>      <span class="st">&quot;words&quot;</span><span class="op">:</span> [</span>
+<span id="cb1-51"><a href="#cb1-51" aria-hidden="true" tabindex="-1"></a>        { <span class="st">&quot;form&quot;</span><span class="op">:</span> <span class="st">&quot;cão&quot;</span><span class="op">,</span> <span class="st">&quot;gloss&quot;</span><span class="op">:</span> <span class="st">&quot;dog&quot;</span> }<span class="op">,</span></span>
+<span id="cb1-52"><a href="#cb1-52" aria-hidden="true" tabindex="-1"></a>        { <span class="st">&quot;form&quot;</span><span class="op">:</span> <span class="st">&quot;gato&quot;</span><span class="op">,</span> <span class="st">&quot;gloss&quot;</span><span class="op">:</span> <span class="st">&quot;cat&quot;</span> }<span class="op">,</span></span>
+<span id="cb1-53"><a href="#cb1-53" aria-hidden="true" tabindex="-1"></a>        { <span class="st">&quot;form&quot;</span><span class="op">:</span> <span class="st">&quot;pássaro&quot;</span><span class="op">,</span> <span class="st">&quot;gloss&quot;</span><span class="op">:</span> <span class="st">&quot;bird&quot;</span> }<span class="op">,</span></span>
+<span id="cb1-54"><a href="#cb1-54" aria-hidden="true" tabindex="-1"></a>        { <span class="st">&quot;form&quot;</span><span class="op">:</span> <span class="st">&quot;correr&quot;</span><span class="op">,</span> <span class="st">&quot;gloss&quot;</span><span class="op">:</span> <span class="st">&quot;run&quot;</span> }<span class="op">,</span></span>
+<span id="cb1-55"><a href="#cb1-55" aria-hidden="true" tabindex="-1"></a>        { <span class="st">&quot;form&quot;</span><span class="op">:</span> <span class="st">&quot;saltar&quot;</span><span class="op">,</span> <span class="st">&quot;gloss&quot;</span><span class="op">:</span> <span class="st">&quot;jump&quot;</span> }</span>
+<span id="cb1-56"><a href="#cb1-56" aria-hidden="true" tabindex="-1"></a>      ]</span>
+<span id="cb1-57"><a href="#cb1-57" aria-hidden="true" tabindex="-1"></a>    }<span class="op">,</span></span>
+<span id="cb1-58"><a href="#cb1-58" aria-hidden="true" tabindex="-1"></a>      {</span>
+<span id="cb1-59"><a href="#cb1-59" aria-hidden="true" tabindex="-1"></a>        <span class="st">&quot;language&quot;</span><span class="op">:</span> <span class="st">&quot;Occitan&quot;</span><span class="op">,</span></span>
+<span id="cb1-60"><a href="#cb1-60" aria-hidden="true" tabindex="-1"></a>        <span class="st">&quot;words&quot;</span><span class="op">:</span> [</span>
+<span id="cb1-61"><a href="#cb1-61" aria-hidden="true" tabindex="-1"></a>          { <span class="st">&quot;form&quot;</span><span class="op">:</span> <span class="st">&quot;chen&quot;</span><span class="op">,</span> <span class="st">&quot;gloss&quot;</span><span class="op">:</span> <span class="st">&quot;dog&quot;</span> }<span class="op">,</span></span>
+<span id="cb1-62"><a href="#cb1-62" aria-hidden="true" tabindex="-1"></a>          { <span class="st">&quot;form&quot;</span><span class="op">:</span> <span class="st">&quot;gat&quot;</span><span class="op">,</span> <span class="st">&quot;gloss&quot;</span><span class="op">:</span> <span class="st">&quot;cat&quot;</span> }<span class="op">,</span></span>
+<span id="cb1-63"><a href="#cb1-63" aria-hidden="true" tabindex="-1"></a>          { <span class="st">&quot;form&quot;</span><span class="op">:</span> <span class="st">&quot;aucèl&quot;</span><span class="op">,</span> <span class="st">&quot;gloss&quot;</span><span class="op">:</span> <span class="st">&quot;bird&quot;</span> }<span class="op">,</span></span>
+<span id="cb1-64"><a href="#cb1-64" aria-hidden="true" tabindex="-1"></a>          { <span class="st">&quot;form&quot;</span><span class="op">:</span> <span class="st">&quot;corrèr&quot;</span><span class="op">,</span> <span class="st">&quot;gloss&quot;</span><span class="op">:</span> <span class="st">&quot;run&quot;</span> }<span class="op">,</span></span>
+<span id="cb1-65"><a href="#cb1-65" aria-hidden="true" tabindex="-1"></a>          { <span class="st">&quot;form&quot;</span><span class="op">:</span> <span class="st">&quot;sautar&quot;</span><span class="op">,</span> <span class="st">&quot;gloss&quot;</span><span class="op">:</span> <span class="st">&quot;jump&quot;</span> }</span>
+<span id="cb1-66"><a href="#cb1-66" aria-hidden="true" tabindex="-1"></a>        ]</span>
+<span id="cb1-67"><a href="#cb1-67" aria-hidden="true" tabindex="-1"></a>      }</span>
+<span id="cb1-68"><a href="#cb1-68" aria-hidden="true" tabindex="-1"></a>    ]</span>
+<span id="cb1-69"><a href="#cb1-69" aria-hidden="true" tabindex="-1"></a>  <span class="kw">&lt;/script&gt;</span></span></code></pre></div>
+<comparative-lexicon id=romance></comparative-lexicon>
+
+<script type=module>
+import {ComparativeLexicon} from './ComparativeLexicon.js'
+let comparativeLexicon = document.querySelector('comparative-lexicon#romance')
+
+window.texts = [{
+      "language": "French",
+      "words": [{
+          "form": "chien",
+          "gloss": "dog"
+        },
+        {
+          "form": "chat",
+          "gloss": "cat"
+        },
+
+
+        {
+          "form": "courir",
+          "gloss": "run"
+        },
+        {
+          "form": "sauter",
+          "gloss": "jump"
+        }
+      ]
+    },
+    {
+      "language": "Spanish",
+      "words": [{
+          "form": "perro",
+          "gloss": "dog"
+        },
+        {
+          "form": "gato",
+          "gloss": "cat"
+        },
+        {
+          "form": "pájaro",
+          "gloss": "bird"
+        },
+        {
+          "form": "correr",
+          "gloss": "run"
+        },
+        {
+          "form": "saltar",
+          "gloss": "jump"
+        }
+      ]
+    },
+    {
+      "language": "Romanian",
+      "words": [{
+          "form": "câine",
+          "gloss": "dog"
+        },
+        {
+          "form": "pisică",
+          "gloss": "cat"
+        },
+        {
+          "form": "pasăre",
+          "gloss": "bird"
+        },
+        {
+          "form": "alerga",
+          "gloss": "run"
+        },
+        {
+          "form": "sări",
+          "gloss": "jump"
+        }
+      ]
+    },
+    {
+      "language": "Basque",
+      "words": [{
+          "form": "txakurra",
+          "gloss": "dog"
+        },
+        {
+          "form": "katu",
+          "gloss": "cat"
+        },
+        {
+          "form": "txoria",
+          "gloss": "bird"
+        },
+        {
+          "form": "korrika",
+          "gloss": "run"
+        },
+        {
+          "form": "salto",
+          "gloss": "jump"
+        }
+      ]
+    }, {
+      language: "Portuguese",
+      words: [{
+          "form": "cão",
+          "gloss": "dog"
+        },
+        {
+          "form": "gato",
+          "gloss": "cat"
+        },
+        {
+          "form": "pássaro",
+          "gloss": "bird"
+        },
+        {
+          "form": "correr",
+          "gloss": "run"
+        },
+        {
+          "form": "saltar",
+          "gloss": "jump"
+        },
+      ]},
+      {
+        language: "Occitan",
+        words: [{
+            "form": "chen",
+            "gloss": "dog"
+          },
+          {
+            "form": "gat",
+            "gloss": "cat"
+          },
+          {
+            "form": "aucèl",
+            "gloss": "bird"
+          },
+          {
+            "form": "corrèr",
+            "gloss": "run"
+          },
+          {
+            "form": "sautar",
+            "gloss": "jump"
+          },
+        ]
+      }
+    ]
+
+comparativeLexicon.data = texts
+
+  </script>
+</section>
+<section id="attributes" class="level2">
+<h2>Attributes</h2>
+</section>
+<section id="methods" class="level2">
+<h2>Methods</h2>
+</section>
+<section id="data" class="level2">
+<h2>Data</h2>
+</section>
+<section id="events" class="level2">
+<h2>Events</h2>
+</section>
+<section id="layouts" class="level2">
+<h2>Layouts</h2>
+</section>
+<section id="see-also" class="level2">
+<h2>See also</h2>
+</section>
+</main>
+<script type="module">
+import {ComparativeLexicon} from './ComparativeLexicon.js'
+
+window.comparativeLexicon = document.querySelector('comparative-lexicon')
+</script>
+</body>
+</html>

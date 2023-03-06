@@ -1,45 +1,46 @@
-export class ComparativeLexicon extends HTMLElement {
+class ComparativeLexicon extends HTMLElement {
   constructor() {
     super()
-    this.lexicons = []
-
+    this.texts = []
     this.listen()
   }
 
   // Define the data setter
-  set data(lexicons) { console.log(lexicons)
-
-    if (!Array.isArray(lexicons)) {
-      throw new Error("Data must be an array of lexicons")
+  set data(texts) {
+    if (!Array.isArray(texts)) {
+      throw new Error("Data must be an array of texts")
     }
 
-    this.lexicons = lexicons
+    this.texts = texts
     this.render()
   }
 
-  async fetch(indexUrl){ 
+  async fetch(indexUrl) {
     let response = await fetch(indexUrl)
     let index = await response.json()
     this.index = index
-    await this.fetchLexicons(index)
+    await this.fetchTexts(index)
   }
 
-  async fetchLexicons({metadata, urls}){ 
+  async fetchTexts({ metadata, urls }) {
     this.metadata = metadata
     this.urls = urls
-    for await (let url of urls){
+    for await (let url of urls) {
       let response = await fetch(url)
-      let lexicon = await response.json()
-      this.lexicons.push(lexicon)
+      let text = await response.json()
+      this.texts.push(text)
     }
-  } 
+  }
 
-  static get observedAttributes(){
+  connectedCallback() {
+  }
+
+  static get observedAttributes() {
     return ["src"]
   }
 
-  attributeChangedCallback(attribute, oldValue, newValue){
-    if(attribute == "src"){ 
+  attributeChangedCallback(attribute, oldValue, newValue) {
+    if (attribute == "src") {
       this.fetch(newValue)
     }
   }
@@ -58,7 +59,7 @@ export class ComparativeLexicon extends HTMLElement {
     headerRow.appendChild(document.createElement("th"))
 
     // Add a header cell for each lexicon
-    this.lexicons.forEach((lexicon) => {
+    this.texts.forEach((lexicon) => {
       const headerCell = document.createElement("th")
       headerCell.textContent = lexicon.language
       headerRow.appendChild(headerCell)
@@ -69,7 +70,7 @@ export class ComparativeLexicon extends HTMLElement {
 
     // Create a row for each gloss
     const glosses = new Set()
-    this.lexicons.forEach((lexicon) => {
+    this.texts.forEach((lexicon) => {
       lexicon.words.forEach((word) => {
         glosses.add(word.gloss)
       })
@@ -79,12 +80,12 @@ export class ComparativeLexicon extends HTMLElement {
       const row = document.createElement("tr")
 
       // Add the gloss to the first cell
-      const glossCell = document.createElement("th")
+      const glossCell = document.createElement("td")
       glossCell.textContent = gloss
       row.appendChild(glossCell)
 
       // Add a cell for each lexicon
-      this.lexicons.forEach((lexicon) => {
+      this.texts.forEach((lexicon) => {
         const word = lexicon.words.find((word) => word.gloss === gloss)
         const cell = document.createElement("td")
         cell.textContent = word ? word.form : "-"
@@ -97,10 +98,6 @@ export class ComparativeLexicon extends HTMLElement {
 
     // Add the table to the component
     this.appendChild(table)
-  }
-
-  listen(){
-
   }
 }
 
