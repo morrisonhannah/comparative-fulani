@@ -1,0 +1,13 @@
+{
+  "metadata": {
+    "title": "Comparative lexicon of Fulani"
+  },
+  "urls": [
+    "./fulani/ffm/ffm-text.json",
+    "./fulani/fuf/fuf_word-list_1979_01-text.json",
+    "./fulani/fuc/fuc-text.json",
+    "./fulani/fuv/fuv_word-list_1962_01-text.json",
+    "./fulani/fub/fub_word-list_1962_01-text.json",
+    "./fulani/fub/fub_word-list_1960_01-text.json"
+  ]
+}

@@ -2,4 +2,4 @@
 *.wav
 *.WAV
 *.aup3
-
+.DS_Store
