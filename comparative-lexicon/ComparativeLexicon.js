@@ -7,31 +7,55 @@ export class ComparativeLexicon extends HTMLElement {
   }
 
   // Define the data setter
-  set data(lexicons) { console.log(lexicons)
+  set data(lexicons) { 
 
     if (!Array.isArray(lexicons)) {
       throw new Error("Data must be an array of lexicons")
     }
 
-    this.lexicons = lexicons
+    this.lexicons = lexicons//.map(lexicon => lexicon.words) // hack fix me
     this.render()
+  }
+
+  sentenceToWord(sentence){
+    let word = {} 
+
+    word.form = sentence.transcription
+    word.gloss = sentence.translation
+
+    return word 
+  }
+
+  textToLexicon(text){
+    let lexicon = {
+      metadata: {title: `Lexicon derived from ${text.metadata.title}`}
+    }
+    lexicon.words = text.sentences
+      .map(sentence => this.sentenceToWord(sentence))
+  
+    return lexicon
   }
 
   async fetch(indexUrl){ 
     let response = await fetch(indexUrl)
     let index = await response.json()
     this.index = index
-    await this.fetchLexicons(index)
+    await this.fetchTexts(index)
   }
 
-  async fetchLexicons({metadata, urls}){ 
+  async fetchTexts({metadata, urls}){ 
     this.metadata = metadata
     this.urls = urls
+    let temporaryLexicons = []
+
     for await (let url of urls){
       let response = await fetch(url)
-      let lexicon = await response.json()
-      this.lexicons.push(lexicon)
+      let text = await response.json()
+      let lexicon = this.textToLexicon(text)
+      temporaryLexicons.push(lexicon)
     }
+
+    this.data = temporaryLexicons
   } 
 
   static get observedAttributes(){
@@ -60,7 +84,7 @@ export class ComparativeLexicon extends HTMLElement {
     // Add a header cell for each lexicon
     this.lexicons.forEach((lexicon) => {
       const headerCell = document.createElement("th")
-      headerCell.textContent = lexicon.language
+      headerCell.textContent = lexicon.language || lexicon.metadata.language
       headerRow.appendChild(headerCell)
     })
 
@@ -85,6 +109,7 @@ export class ComparativeLexicon extends HTMLElement {
 
       // Add a cell for each lexicon
       this.lexicons.forEach((lexicon) => {
+        // const word = lexicon.words.find((word) => word.gloss === gloss)
         const word = lexicon.words.find((word) => word.gloss === gloss)
         const cell = document.createElement("td")
         cell.textContent = word ? word.form : "-"
