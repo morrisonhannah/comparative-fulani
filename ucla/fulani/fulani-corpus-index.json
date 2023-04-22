@@ -16,14 +16,14 @@
     ]
   },
   "texts": [
+    "./ffm/ffm_word-list_1962_01-text.json",
     "./ffm/ffm_word-list_1962_02-text.json",
     "./ffm/ffm_word-list_1962_03-text.json",
-    "./ffm/ffm_word-list_1962_01-text.json",
+    "./fub/fub_word-list_1960_01-text.json",
+    "./fub/fub_word-list_1962_01-text.json",
+    "./fuc/fuc_word-list_1972_01-text.json",
     "./fuf/fuf_word-list_1979_01-text.json",
     "./fuh/fuh_word-list_1962_01-text.json",
-    "./fuc/fuc_word-list_1972_01-text.json",
-    "./fuv/fuv_word-list_1962_01-text.json",
-    "./fub/fub_word-list_1962_01-text.json",
-    "./fub/fub_word-list_1960_01-text.json"
+    "./fuv/fuv_word-list_1962_01-text.json"
   ]
 }
