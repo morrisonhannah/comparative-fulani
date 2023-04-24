@@ -7,9 +7,9 @@ import { writableStreamFromWriter } from "https://deno.land/std@0.160.0/streams/
 
 let parseObjectTable = table => Array.from(table.rows)
   .reduce((o, row) => {
-  o[row.cells[0].textContent.trim()] = row.cells[1].textContent.trim()
-  return o
-}, {})
+    o[row.cells[0].textContent.trim()] = row.cells[1].textContent.trim()
+    return o
+  }, {})
 
 let plaintext = await Deno.readTextFile('fulani-corpus-index.json')
 let corpusIndex = JSON.parse(plaintext)

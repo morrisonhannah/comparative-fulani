@@ -3,6 +3,7 @@ export class ComparativeLexicon extends HTMLElement {
     super()
     this.lexicons = []
 
+    this.audios = {}
     this.listen()
   }
 
@@ -22,13 +23,17 @@ export class ComparativeLexicon extends HTMLElement {
 
     word.form = sentence.transcription
     word.gloss = sentence.translation
+    word.metadata = sentence.metadata
 
     return word 
   }
 
   textToLexicon(text){
     let lexicon = {
-      metadata: {title: `Lexicon derived from ${text.metadata.title}`}
+      metadata: {
+        title: `Lexicon derived from ${text.metadata.title}`,
+        language: text.metadata.language
+      }
     }
     lexicon.words = text.sentences
       .map(sentence => this.sentenceToWord(sentence))
@@ -37,10 +42,16 @@ export class ComparativeLexicon extends HTMLElement {
   }
 
   async fetch(indexUrl){ 
-    let response = await fetch(indexUrl)
-    let index = await response.json()
-    this.index = index
-    await this.fetchTexts(index)
+    try {
+
+      let response = await fetch(indexUrl)
+      let index = await response.json()
+      this.index = index
+
+      await this.fetchTexts(index)
+    } catch(e){
+      console.log(e)
+    }
   }
 
   async fetchTexts({metadata, urls}){ 
@@ -49,10 +60,14 @@ export class ComparativeLexicon extends HTMLElement {
     let temporaryLexicons = []
 
     for await (let url of urls){
-      let response = await fetch(url)
-      let text = await response.json()
-      let lexicon = this.textToLexicon(text)
-      temporaryLexicons.push(lexicon)
+      try {
+        let response = await fetch(url)
+        let text = await response.json()
+        let lexicon = this.textToLexicon(text)
+        temporaryLexicons.push(lexicon)
+      } catch(e){
+        console.log(e)
+      }
     }
 
     this.data = temporaryLexicons
@@ -112,9 +127,31 @@ export class ComparativeLexicon extends HTMLElement {
         // const word = lexicon.words.find((word) => word.gloss === gloss)
         const word = lexicon.words.find((word) => word.gloss === gloss)
         const cell = document.createElement("td")
-        cell.textContent = word ? word.form : "-"
+        if(word?.form.length){
+          // console.log(word)
+          cell.classList.add('found')
+          cell.textContent = word.form
+          if (word?.metadata?.links){
+            let {start, end, fileName} = word.metadata.links[0]
+            cell.dataset.start = start
+            cell.dataset.end = end
+            cell.dataset.fileName = fileName
+          }
+        } else {
+          cell.classList.add('missing')
+          cell.textContent = "-"
+        }
         row.appendChild(cell)
       })
+
+      let tds = Array.from(row.querySelectorAll('td'))
+
+      // let noOverlap = tds
+      //     .filter(td => td.classList.contains('found'))
+      //     .length < 2 
+
+      // if(noOverlap){ row.style.display = 'none' }
+      
 
       // Add the row to the table
       table.appendChild(row)
@@ -125,7 +162,27 @@ export class ComparativeLexicon extends HTMLElement {
   }
 
   listen(){
+    this.addEventListener('click', clickEvent => {
+      if(clickEvent.target.matches('td')){
+        let {start, end, fileName} = clickEvent.target.dataset
 
+        if(start> 0){
+          if(!this.audios[fileName]){
+            this.audios[fileName] = new Audio()
+            this.audios[fileName].src = `./fulani/${fileName.split('_')[0]}/${fileName}`
+            console.log(this.audios[fileName])
+          }
+          let audio = this.audios[fileName]
+          // audio.addEventListener('canplaythrough', () => {
+            audio.currentTime = start
+            setTimeout(() => {
+              audio.pause()
+            }, end - start)
+            audio.play()
+          // })
+        }
+      }
+    })
   }
 }
 

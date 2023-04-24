@@ -7,900 +7,1684 @@
   },
   "sentences": [
     {
-      "number": "1",
-      "sound": "a",
+      "entry": "1",
       "transcription": "ˈkaɾe̞ʔ",
       "translation": "a kind of food",
-      "end": "12.895365",
-      "start": "10.107134"
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuc_word-list_1972_01.wav",
+            "start": "10.107134",
+            "end": "12.895365"
+          }
+        ]
+      }
     },
     {
-      "number": "2",
-      "sound": "e",
+      "entry": "2",
       "transcription": "ˈkeni̞ʔ",
       "translation": "winds",
-      "end": "15.262123",
-      "start": "12.895365"
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuc_word-list_1972_01.wav",
+            "start": "12.895365",
+            "end": "15.262123"
+          }
+        ]
+      }
     },
     {
-      "number": "3",
-      "sound": "i",
+      "entry": "3",
       "transcription": "ˈkine̞ʔ",
       "translation": "nostrils",
-      "end": "17.062168",
-      "start": "15.262123"
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuc_word-list_1972_01.wav",
+            "start": "15.262123",
+            "end": "17.062168"
+          }
+        ]
+      }
     },
     {
-      "number": "4",
-      "sound": "o",
+      "entry": "4",
       "transcription": "ˈkonuʔ",
       "translation": "war",
-      "end": "19.245048",
-      "start": "17.062168"
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuc_word-list_1972_01.wav",
+            "start": "17.062168",
+            "end": "19.245048"
+          }
+        ]
+      }
     },
     {
-      "number": "5",
-      "sound": "u",
+      "entry": "5",
       "transcription": "ˈkuɾe̞ʔ",
       "translation": "arrows",
-      "end": "20.840944",
-      "start": "19.245048"
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuc_word-list_1972_01.wav",
+            "start": "19.245048",
+            "end": "20.840944"
+          }
+        ]
+      }
     },
     {
-      "number": "6",
-      "sound": "aa",
+      "entry": "6",
       "transcription": "ˈlaamuʔ",
       "translation": "kingdom",
-      "end": "24.590649",
-      "start": "20.840944"
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuc_word-list_1972_01.wav",
+            "start": "20.840944",
+            "end": "24.590649"
+          }
+        ]
+      }
     },
     {
-      "number": "7",
-      "sound": "ee",
+      "entry": "7",
       "transcription": "ˈleemuʔ",
       "translation": "lemon",
-      "end": "26.655365",
-      "start": "24.590649"
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuc_word-list_1972_01.wav",
+            "start": "24.590649",
+            "end": "26.655365"
+          }
+        ]
+      }
     },
     {
-      "number": "8",
-      "sound": "ii",
+      "entry": "8",
       "transcription": "ˈhiila̟ʔ",
       "translation": "magic",
-      "end": "28.446046",
-      "start": "26.655365"
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuc_word-list_1972_01.wav",
+            "start": "26.655365",
+            "end": "28.446046"
+          }
+        ]
+      }
     },
     {
-      "number": "9",
-      "sound": "oo",
+      "entry": "9",
       "transcription": "ˈdoole̞ʔ",
       "translation": "force",
-      "end": "30.406",
-      "start": "28.446046"
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuc_word-list_1972_01.wav",
+            "start": "28.446046",
+            "end": "30.406"
+          }
+        ]
+      }
     },
     {
-      "number": "10",
-      "sound": "uu",
+      "entry": "10",
       "transcription": "ˈduule̞ʔ",
       "translation": "coulds",
-      "end": "32.379606",
-      "start": "30.406"
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuc_word-list_1972_01.wav",
+            "start": "30.406",
+            "end": "32.379606"
+          }
+        ]
+      }
     },
     {
-      "number": "11",
-      "sound": "uu",
+      "entry": "11",
       "transcription": "ˈluumoʔ",
       "translation": "market",
-      "end": "34.907678",
-      "start": "32.379606"
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuc_word-list_1972_01.wav",
+            "start": "32.379606",
+            "end": "34.907678"
+          }
+        ]
+      }
     },
     {
-      "number": "12",
-      "sound": "ii",
+      "entry": "12",
       "transcription": "ˈkiikiiɗe̞ʔ",
       "translation": "evening",
-      "end": "41.414368",
-      "start": "34.907678"
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuc_word-list_1972_01.wav",
+            "start": "34.907678",
+            "end": "41.414368"
+          }
+        ]
+      }
     },
     {
-      "number": "13",
-      "sound": "i",
+      "entry": "13",
       "transcription": "ˈɗiɗiʔ",
       "translation": "two",
-      "end": "43.398268",
-      "start": "41.414368"
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuc_word-list_1972_01.wav",
+            "start": "41.414368",
+            "end": "43.398268"
+          }
+        ]
+      }
     },
     {
-      "number": "14",
-      "sound": "ee",
+      "entry": "14",
       "transcription": "ˈdeeɗi̞ʔ",
       "translation": "stomachs",
-      "end": "46.128404",
-      "start": "43.398268"
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuc_word-list_1972_01.wav",
+            "start": "43.398268",
+            "end": "46.128404"
+          }
+        ]
+      }
     },
     {
-      "number": "15",
-      "sound": "e",
+      "entry": "15",
       "transcription": "ˈbeɗi̞ʔ",
       "translation": "woven pot lids",
-      "end": "49.446295",
-      "start": "46.128404"
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuc_word-list_1972_01.wav",
+            "start": "46.128404",
+            "end": "49.446295"
+          }
+        ]
+      }
     },
     {
-      "number": "16",
-      "sound": "aa",
+      "entry": "16",
       "transcription": "ˈbaaɗe̞ʔ",
       "translation": "ant heaps",
-      "end": "55.646295",
-      "start": "49.446295"
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuc_word-list_1972_01.wav",
+            "start": "49.446295",
+            "end": "55.646295"
+          }
+        ]
+      }
     },
     {
-      "number": "17",
-      "sound": "a",
+      "entry": "17",
       "transcription": "ˈpaɗe̞ʔ",
       "translation": "shoes",
-      "end": "57.500037",
-      "start": "55.646295"
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuc_word-list_1972_01.wav",
+            "start": "55.646295",
+            "end": "57.500037"
+          }
+        ]
+      }
     },
     {
-      "number": "18",
-      "sound": "oo",
+      "entry": "18",
       "transcription": "ˈkoode̞ʔ",
       "translation": "herons",
-      "end": "60.529062",
-      "start": "57.500037"
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuc_word-list_1972_01.wav",
+            "start": "57.500037",
+            "end": "60.529062"
+          }
+        ]
+      }
     },
     {
-      "number": "19",
-      "sound": "o",
+      "entry": "19",
       "transcription": "ˈkoɗi̞ʔ",
       "translation": "necklaces",
-      "end": "62.999334",
-      "start": "60.529062"
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuc_word-list_1972_01.wav",
+            "start": "60.529062",
+            "end": "62.999334"
+          }
+        ]
+      }
     },
     {
-      "number": "20",
-      "sound": "uu",
+      "entry": "20",
       "transcription": "ˈt̠ɕuuɗi̞ʔ",
       "translation": "huts, rooms",
-      "end": "65.679062",
-      "start": "62.999334"
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuc_word-list_1972_01.wav",
+            "start": "62.999334",
+            "end": "65.679062"
+          }
+        ]
+      }
     },
     {
-      "number": "21",
-      "sound": "u",
+      "entry": "21",
       "transcription": "ˈkuɗi̞ʔ",
       "translation": "stalks of grass",
-      "end": "68.029288",
-      "start": "65.679062"
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuc_word-list_1972_01.wav",
+            "start": "65.679062",
+            "end": "68.029288"
+          }
+        ]
+      }
     },
     {
-      "number": "22",
-      "sound": "p",
+      "entry": "22",
       "transcription": "ˈpaali̞ʔ",
       "translation": "pots",
-      "end": "75.440944",
-      "start": "68.029288"
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuc_word-list_1972_01.wav",
+            "start": "68.029288",
+            "end": "75.440944"
+          }
+        ]
+      }
     },
     {
-      "number": "23",
-      "sound": "b",
+      "entry": "23",
       "transcription": "ˈbaali̞ʔ",
       "translation": "sheep (pl.)",
-      "end": "77.115615",
-      "start": "75.440944"
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuc_word-list_1972_01.wav",
+            "start": "75.440944",
+            "end": "77.115615"
+          }
+        ]
+      }
     },
     {
-      "number": "24",
-      "sound": "ɓ",
+      "entry": "24",
       "transcription": "ˈɓaawoʔ",
       "translation": "back",
-      "end": "79.409243",
-      "start": "77.115615"
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuc_word-list_1972_01.wav",
+            "start": "77.115615",
+            "end": "79.409243"
+          }
+        ]
+      }
     },
     {
-      "number": "25",
-      "sound": "b",
+      "entry": "25",
       "transcription": "ˈbaali̞ʔ",
       "translation": "sheep (pl.)",
-      "end": "83.012644",
-      "start": "79.409243"
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuc_word-list_1972_01.wav",
+            "start": "79.409243",
+            "end": "83.012644"
+          }
+        ]
+      }
     },
     {
-      "number": "26",
-      "sound": "mb",
+      "entry": "26",
       "transcription": "ˈmbaaluʔ",
       "translation": "sheep (sg.)",
-      "end": "85.243597",
-      "start": "83.012644"
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuc_word-list_1972_01.wav",
+            "start": "83.012644",
+            "end": "85.243597"
+          }
+        ]
+      }
     },
     {
-      "number": "27",
-      "sound": "ɓ",
+      "entry": "27",
       "transcription": "o ˈɓantii",
       "translation": "he lifted",
-      "end": "90.046318",
-      "start": "85.243597"
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuc_word-list_1972_01.wav",
+            "start": "85.243597",
+            "end": "90.046318"
+          }
+        ]
+      }
     },
     {
-      "number": "28",
-      "sound": "b",
+      "entry": "28",
       "transcription": "ˈkoobi̞ʔ",
       "translation": "roan antelope (pl.)",
-      "end": "93.780241",
-      "start": "90.046318"
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuc_word-list_1972_01.wav",
+            "start": "90.046318",
+            "end": "93.780241"
+          }
+        ]
+      }
     },
     {
-      "number": "29",
-      "sound": "mb",
+      "entry": "29",
       "transcription": "ˈdoombi̞ʔ",
       "translation": "rats",
-      "end": "96.166545",
-      "start": "93.780241"
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuc_word-list_1972_01.wav",
+            "start": "93.780241",
+            "end": "96.166545"
+          }
+        ]
+      }
     },
     {
-      "number": "30",
-      "sound": "t",
+      "entry": "30",
       "transcription": "(o) taˈwii",
       "translation": "find",
-      "end": "99.952644",
-      "start": "96.166545"
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuc_word-list_1972_01.wav",
+            "start": "96.166545",
+            "end": "99.952644"
+          }
+        ]
+      }
     },
     {
-      "number": "31",
-      "sound": "d",
+      "entry": "31",
       "transcription": "(o) daˈwii",
       "translation": "start out early",
-      "end": "102.598245",
-      "start": "99.952644"
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuc_word-list_1972_01.wav",
+            "start": "99.952644",
+            "end": "102.598245"
+          }
+        ]
+      }
     },
     {
-      "number": "32",
-      "sound": "d",
+      "entry": "32",
       "transcription": "ˈdaande̞ʔ",
       "translation": "neck",
-      "end": "104.7743",
-      "start": "102.598245"
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuc_word-list_1972_01.wav",
+            "start": "102.598245",
+            "end": "104.7743"
+          }
+        ]
+      }
     },
     {
-      "number": "33",
-      "sound": "ɗ",
+      "entry": "33",
       "transcription": "o ˈɗaanii",
       "translation": "he slept",
-      "end": "108.197202",
-      "start": "104.7743"
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuc_word-list_1972_01.wav",
+            "start": "104.7743",
+            "end": "108.197202"
+          }
+        ]
+      }
     },
     {
-      "number": "34",
-      "sound": "ɗ",
+      "entry": "34",
       "transcription": "ˈɗo̟mdude̞ʔ",
       "translation": "to be thirsty",
-      "end": "114.22498",
-      "start": "108.197202"
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuc_word-list_1972_01.wav",
+            "start": "108.197202",
+            "end": "114.22498"
+          }
+        ]
+      }
     },
     {
-      "number": "35",
-      "sound": "ɗj",
+      "entry": "35",
       "transcription": "ˈɗjoɗiʔ",
       "translation": "to be clever",
-      "end": "117.275955",
-      "start": "114.22498"
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuc_word-list_1972_01.wav",
+            "start": "114.22498",
+            "end": "117.275955"
+          }
+        ]
+      }
     },
     {
-      "number": "36",
-      "sound": "d̠ʑ",
+      "entry": "36",
       "transcription": "ˈd̠ʑo̟m",
       "translation": "owner of, head of",
-      "end": "119.036703",
-      "start": "117.275955"
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuc_word-list_1972_01.wav",
+            "start": "117.275955",
+            "end": "119.036703"
+          }
+        ]
+      }
     },
     {
-      "number": "37",
-      "sound": "d",
+      "entry": "37",
       "transcription": "ˈmai̯̞deʔ",
       "translation": "death",
-      "end": "125.971125",
-      "start": "119.036703"
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuc_word-list_1972_01.wav",
+            "start": "119.036703",
+            "end": "125.971125"
+          }
+        ]
+      }
     },
     {
-      "number": "38",
-      "sound": "nd",
+      "entry": "38",
       "transcription": "ˈwaanduʔ",
       "translation": "red monkey",
-      "end": "127.81108",
-      "start": "125.971125"
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuc_word-list_1972_01.wav",
+            "start": "125.971125",
+            "end": "127.81108"
+          }
+        ]
+      }
     },
     {
-      "number": "39",
-      "sound": "d",
+      "entry": "39",
       "transcription": "o daˈɾii",
       "translation": "he stood",
-      "end": "130.803121",
-      "start": "127.81108"
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuc_word-list_1972_01.wav",
+            "start": "127.81108",
+            "end": "130.803121"
+          }
+        ]
+      }
     },
     {
-      "number": "40",
-      "sound": "nd",
+      "entry": "40",
       "transcription": "ɓeⁿdaˈɾii",
       "translation": "they stood",
-      "end": "132.396091",
-      "start": "130.803121"
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuc_word-list_1972_01.wav",
+            "start": "130.803121",
+            "end": "132.396091"
+          }
+        ]
+      }
     },
     {
-      "number": "41",
-      "sound": "ɗ",
+      "entry": "41",
       "transcription": "o ˈɗaanike̞",
       "translation": "he slept",
-      "end": "134.114118",
-      "start": "132.396091"
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuc_word-list_1972_01.wav",
+            "start": "132.396091",
+            "end": "134.114118"
+          }
+        ]
+      }
     },
     {
-      "number": "42",
-      "sound": "k",
+      "entry": "42",
       "transcription": "ˈɡoɾahiʔ",
       "translation": "type of tree",
-      "end": "139.336522",
-      "start": "134.114118"
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuc_word-list_1972_01.wav",
+            "start": "134.114118",
+            "end": "139.336522"
+          }
+        ]
+      }
     },
     {
-      "number": "43",
-      "sound": "ɡ",
+      "entry": "43",
       "transcription": "ˈkuɾahiʔ",
       "translation": "kola nut tree",
-      "end": "144.292576",
-      "start": "139.336522"
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuc_word-list_1972_01.wav",
+            "start": "139.336522",
+            "end": "144.292576"
+          }
+        ]
+      }
     },
     {
-      "number": "44",
-      "sound": "ɡ",
+      "entry": "44",
       "transcription": "ˈɡadaʔ",
       "translation": "across",
-      "end": "146.694912",
-      "start": "144.292576"
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuc_word-list_1972_01.wav",
+            "start": "144.292576",
+            "end": "146.694912"
+          }
+        ]
+      }
     },
     {
-      "number": "45",
-      "sound": "ŋɡ",
+      "entry": "45",
       "transcription": "ˈŋɡaaɾi̞ʔ",
       "translation": "bull",
-      "end": "148.831216",
-      "start": "146.694912"
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuc_word-list_1972_01.wav",
+            "start": "146.694912",
+            "end": "148.831216"
+          }
+        ]
+      }
     },
     {
-      "number": "46",
-      "sound": "t̠ɕ",
+      "entry": "46",
       "transcription": "ˈt̠ɕaaŋɡolʔ",
       "translation": "brook",
-      "end": "150.864957",
-      "start": "148.831216"
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuc_word-list_1972_01.wav",
+            "start": "148.831216",
+            "end": "150.864957"
+          }
+        ]
+      }
     },
     {
-      "number": "47",
-      "sound": "d̠ʑ",
+      "entry": "47",
       "transcription": "ˈd̠ʑaaŋɡolʔ",
       "translation": "cold",
-      "end": "152.713982",
-      "start": "150.864957"
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuc_word-list_1972_01.wav",
+            "start": "150.864957",
+            "end": "152.713982"
+          }
+        ]
+      }
     },
     {
-      "number": "48",
-      "sound": "d̠ʑ",
+      "entry": "48",
       "transcription": "ˈd̠ʑaaɾude̞ʔ",
       "translation": "to thank",
-      "end": "154.853506",
-      "start": "152.713982"
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuc_word-list_1972_01.wav",
+            "start": "152.713982",
+            "end": "154.853506"
+          }
+        ]
+      }
     },
     {
-      "number": "49",
-      "sound": "n̠d̠ʑ",
+      "entry": "49",
       "transcription": "ˈn̠d̠ʑaatiɡi̞ʔ",
       "translation": "host",
-      "end": "157.4382",
-      "start": "154.853506"
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuc_word-list_1972_01.wav",
+            "start": "154.853506",
+            "end": "157.4382"
+          }
+        ]
+      }
     },
     {
-      "number": "50",
-      "sound": "f",
+      "entry": "50",
       "transcription": "ˈfewi̞ʔ",
       "translation": "lied",
-      "end": "159.921034",
-      "start": "157.4382"
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuc_word-list_1972_01.wav",
+            "start": "157.4382",
+            "end": "159.921034"
+          }
+        ]
+      }
     },
     {
-      "number": "51",
-      "sound": "s",
+      "entry": "51",
       "transcription": "ˈsei̯̞",
       "translation": "only",
-      "end": "162.517134",
-      "start": "159.921034"
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuc_word-list_1972_01.wav",
+            "start": "159.921034",
+            "end": "162.517134"
+          }
+        ]
+      }
     },
     {
-      "number": "52",
-      "sound": "f",
+      "entry": "52",
       "transcription": "(o) ˈfaali̞ʔ",
       "translation": "desired",
-      "end": "164.19795",
-      "start": "162.517134"
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuc_word-list_1972_01.wav",
+            "start": "162.517134",
+            "end": "164.19795"
+          }
+        ]
+      }
     },
     {
-      "number": "53",
-      "sound": "h",
+      "entry": "53",
       "transcription": "ˈhaalaʔ",
       "translation": "palaver",
-      "end": "167.453755",
-      "start": "164.19795"
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuc_word-list_1972_01.wav",
+            "start": "164.19795",
+            "end": "167.453755"
+          }
+        ]
+      }
     },
     {
-      "number": "54",
-      "sound": "h",
+      "entry": "54",
       "transcription": "ˈhaalaʔ",
       "translation": "palaver",
-      "end": "169.946295",
-      "start": "167.453755"
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuc_word-list_1972_01.wav",
+            "start": "167.453755",
+            "end": "169.946295"
+          }
+        ]
+      }
     },
     {
-      "number": "55",
-      "sound": "w",
+      "entry": "55",
       "transcription": "oˈwaali̞ʔ",
       "translation": "laid (down)",
-      "end": "172.463551",
-      "start": "169.946295"
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuc_word-list_1972_01.wav",
+            "start": "169.946295",
+            "end": "172.463551"
+          }
+        ]
+      }
     },
     {
-      "number": "56",
-      "sound": "w",
+      "entry": "56",
       "transcription": "o ˈwaaɾataʔ",
       "translation": "to do in a certain way",
-      "end": "176.059651",
-      "start": "172.463551"
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuc_word-list_1972_01.wav",
+            "start": "172.463551",
+            "end": "176.059651"
+          }
+        ]
+      }
     },
     {
-      "number": "57",
-      "sound": "l",
+      "entry": "57",
       "transcription": "o ˈlaaɾataʔ",
       "translation": "see",
-      "end": "178.703982",
-      "start": "176.059651"
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuc_word-list_1972_01.wav",
+            "start": "176.059651",
+            "end": "178.703982"
+          }
+        ]
+      }
     },
     {
-      "number": "58",
-      "sound": "l",
+      "entry": "58",
       "transcription": "ˈlaaɾaʔ",
       "translation": "see",
-      "end": "187.707996",
-      "start": "178.703982"
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuc_word-list_1972_01.wav",
+            "start": "178.703982",
+            "end": "187.707996"
+          }
+        ]
+      }
     },
     {
-      "number": "59",
-      "sound": "j",
+      "entry": "59",
       "transcription": "ˈjaaɾaʔ",
       "translation": "lead, take",
-      "end": "189.840876",
-      "start": "187.707996"
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuc_word-list_1972_01.wav",
+            "start": "187.707996",
+            "end": "189.840876"
+          }
+        ]
+      }
     },
     {
-      "number": "60",
-      "sound": "l",
+      "entry": "60",
       "transcription": "ˈlammi̞(ʔ)",
       "translation": "was salty",
-      "end": "192.237542",
-      "start": "189.840876"
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuc_word-list_1972_01.wav",
+            "start": "189.840876",
+            "end": "192.237542"
+          }
+        ]
+      }
     },
     {
-      "number": "61",
-      "sound": "r",
+      "entry": "61",
       "transcription": "ˈɾammi̞(ʔ)",
       "translation": "was short",
-      "end": "194.232032",
-      "start": "192.237542"
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuc_word-list_1972_01.wav",
+            "start": "192.237542",
+            "end": "194.232032"
+          }
+        ]
+      }
     },
     {
-      "number": "62",
-      "sound": "j",
+      "entry": "62",
       "transcription": "ˈjaɾaʔ",
       "translation": "drink",
-      "end": "195.911057",
-      "start": "194.232032"
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuc_word-list_1972_01.wav",
+            "start": "194.232032",
+            "end": "195.911057"
+          }
+        ]
+      }
     },
     {
-      "number": "63",
-      "sound": "w",
+      "entry": "63",
       "transcription": "ˈwaɾaʔ",
       "translation": "come",
-      "end": "198.737633",
-      "start": "195.911057"
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuc_word-list_1972_01.wav",
+            "start": "195.911057",
+            "end": "198.737633"
+          }
+        ]
+      }
     },
     {
-      "number": "64",
-      "sound": "w",
+      "entry": "64",
       "transcription": "ˈwaɾdaʔ (waɾdi̞ʔ)",
       "translation": "come with",
-      "end": "200.854345",
-      "start": "198.737633"
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuc_word-list_1972_01.wav",
+            "start": "198.737633",
+            "end": "200.854345"
+          }
+        ]
+      }
     },
     {
-      "number": "65",
-      "sound": "h",
+      "entry": "65",
       "transcription": "ˈhi̞ɾaʔ",
       "translation": "snore",
-      "end": "203.718336",
-      "start": "200.854345"
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuc_word-list_1972_01.wav",
+            "start": "200.854345",
+            "end": "203.718336"
+          }
+        ]
+      }
     },
     {
-      "number": "66",
-      "sound": "j",
+      "entry": "66",
       "transcription": "ˈjaɾaʔ",
       "translation": "drink",
-      "end": "206.107361",
-      "start": "203.718336"
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuc_word-list_1972_01.wav",
+            "start": "203.718336",
+            "end": "206.107361"
+          }
+        ]
+      }
     },
     {
-      "number": "67",
-      "sound": "ʔ",
+      "entry": "67",
       "transcription": "ˈʔi̞nde̞ʔ",
       "translation": "name",
-      "end": "209.032576",
-      "start": "206.107361"
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuc_word-list_1972_01.wav",
+            "start": "206.107361",
+            "end": "209.032576"
+          }
+        ]
+      }
     },
     {
-      "number": "68",
-      "sound": "h",
+      "entry": "68",
       "transcription": "ˈhi̞nde̞ʔ",
       "translation": "steamer",
-      "end": "211.304526",
-      "start": "209.032576"
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuc_word-list_1972_01.wav",
+            "start": "209.032576",
+            "end": "211.304526"
+          }
+        ]
+      }
     },
     {
-      "number": "69",
-      "sound": "h",
+      "entry": "69",
       "transcription": "o ˈhaarii",
       "translation": "he is full",
-      "end": "213.971148",
-      "start": "211.304526"
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuc_word-list_1972_01.wav",
+            "start": "211.304526",
+            "end": "213.971148"
+          }
+        ]
+      }
     },
     {
-      "number": "70",
-      "sound": "j",
+      "entry": "70",
       "transcription": "o jaˈrii",
       "translation": "he drank",
-      "end": "215.165048",
-      "start": "213.971148"
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuc_word-list_1972_01.wav",
+            "start": "213.971148",
+            "end": "215.165048"
+          }
+        ]
+      }
     },
     {
-      "number": "71",
-      "sound": "ɗj",
+      "entry": "71",
       "transcription": "o ɗjaˈkkii",
       "translation": "he chewed",
-      "end": "218.342508",
-      "start": "215.165048"
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuc_word-list_1972_01.wav",
+            "start": "215.165048",
+            "end": "218.342508"
+          }
+        ]
+      }
     },
     {
-      "number": "72",
-      "sound": "j",
+      "entry": "72",
       "transcription": "ˈjaasi̞ʔ",
       "translation": "outside",
-      "end": "220.10244",
-      "start": "218.342508"
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuc_word-list_1972_01.wav",
+            "start": "218.342508",
+            "end": "220.10244"
+          }
+        ]
+      }
     },
     {
-      "number": "73",
-      "sound": "ɲ",
+      "entry": "73",
       "transcription": "ˈɲaakuʔ",
       "translation": "bee",
-      "end": "222.243143",
-      "start": "220.10244"
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuc_word-list_1972_01.wav",
+            "start": "220.10244",
+            "end": "222.243143"
+          }
+        ]
+      }
     },
     {
-      "number": "74",
-      "sound": "ɲ",
+      "entry": "74",
       "transcription": "o ˈɲaaˈmii",
       "translation": "ate",
-      "end": "224.817157",
-      "start": "222.243143"
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuc_word-list_1972_01.wav",
+            "start": "222.243143",
+            "end": "224.817157"
+          }
+        ]
+      }
     },
     {
-      "number": "75",
-      "sound": "n",
+      "entry": "75",
       "transcription": "ˈnani̞(ʔ)",
       "translation": "heard",
-      "end": "226.788223",
-      "start": "224.817157"
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuc_word-list_1972_01.wav",
+            "start": "224.817157",
+            "end": "226.788223"
+          }
+        ]
+      }
     },
     {
-      "number": "76",
-      "sound": "m",
+      "entry": "76",
       "transcription": "ˈmani̞(ʔ)",
       "translation": "praised",
-      "end": "229.265093",
-      "start": "226.788223"
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuc_word-list_1972_01.wav",
+            "start": "226.788223",
+            "end": "229.265093"
+          }
+        ]
+      }
     },
     {
-      "number": "77",
-      "sound": "n",
+      "entry": "77",
       "transcription": "o ˈnaaˈtii",
       "translation": "he entered",
-      "end": "234.924277",
-      "start": "229.265093"
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuc_word-list_1972_01.wav",
+            "start": "229.265093",
+            "end": "234.924277"
+          }
+        ]
+      }
     },
     {
-      "number": "78",
-      "sound": "ɲ",
+      "entry": "78",
       "transcription": "o ˈɲaaˈmii",
       "translation": "he ate",
-      "end": "236.761669",
-      "start": "234.924277"
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuc_word-list_1972_01.wav",
+            "start": "234.924277",
+            "end": "236.761669"
+          }
+        ]
+      }
     },
     {
-      "number": "79",
-      "sound": "ŋ",
+      "entry": "79",
       "transcription": "o ˈŋaˈtii",
       "translation": "he bit",
-      "end": "239.988449",
-      "start": "236.761669"
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuc_word-list_1972_01.wav",
+            "start": "236.761669",
+            "end": "239.988449"
+          }
+        ]
+      }
     },
     {
-      "number": "80",
-      "sound": "ŋɡ",
+      "entry": "80",
       "transcription": "ˈŋɡaaɾi̞ʔ",
       "translation": "bull",
-      "end": "242.56625",
-      "start": "239.988449"
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuc_word-list_1972_01.wav",
+            "start": "239.988449",
+            "end": "242.56625"
+          }
+        ]
+      }
     },
     {
-      "number": "81",
-      "sound": "n",
+      "entry": "81",
       "transcription": "ˈmbi̞ŋ",
       "translation": "sound of a drum beat",
-      "end": "244.408291",
-      "start": "242.56625"
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuc_word-list_1972_01.wav",
+            "start": "242.56625",
+            "end": "244.408291"
+          }
+        ]
+      }
     },
     {
-      "number": "82",
-      "sound": "pp",
+      "entry": "82",
       "transcription": "ˈsappo",
       "translation": "ten",
-      "end": "249.322508",
-      "start": "244.408291"
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuc_word-list_1972_01.wav",
+            "start": "244.408291",
+            "end": "249.322508"
+          }
+        ]
+      }
     },
     {
-      "number": "83",
-      "sound": "bb",
+      "entry": "83",
       "transcription": "ˈlabboʔ",
       "translation": "spear",
-      "end": "251.021941",
-      "start": "249.322508"
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuc_word-list_1972_01.wav",
+            "start": "249.322508",
+            "end": "251.021941"
+          }
+        ]
+      }
     },
     {
-      "number": "84",
-      "sound": "ɓɓ",
+      "entry": "84",
       "transcription": "ˈɓiɓɓe̞ʔ",
       "translation": "children",
-      "end": "252.605297",
-      "start": "251.021941"
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuc_word-list_1972_01.wav",
+            "start": "251.021941",
+            "end": "252.605297"
+          }
+        ]
+      }
     },
     {
-      "number": "85",
-      "sound": "mmb",
+      "entry": "85",
       "transcription": "bammbaaɗoʔ",
       "translation": "earned",
-      "end": "254.622055",
-      "start": "252.605297"
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuc_word-list_1972_01.wav",
+            "start": "252.605297",
+            "end": "254.622055"
+          }
+        ]
+      }
     },
     {
-      "number": "86",
-      "sound": "mmb",
+      "entry": "86",
       "transcription": "ɾe̝mmi̞ɾaawoʔ",
       "translation": "in-law",
-      "end": "256.513914",
-      "start": "254.622055"
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuc_word-list_1972_01.wav",
+            "start": "254.622055",
+            "end": "256.513914"
+          }
+        ]
+      }
     },
     {
-      "number": "87",
-      "sound": "tt",
+      "entry": "87",
       "transcription": "ˈwattude̞ʔ",
       "translation": "to put",
-      "end": "258.183347",
-      "start": "256.513914"
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuc_word-list_1972_01.wav",
+            "start": "256.513914",
+            "end": "258.183347"
+          }
+        ]
+      }
     },
     {
-      "number": "88",
-      "sound": "dd",
+      "entry": "88",
       "transcription": "ˈladde̞ʔ",
       "translation": "bush",
-      "end": "259.940241",
-      "start": "258.183347"
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuc_word-list_1972_01.wav",
+            "start": "258.183347",
+            "end": "259.940241"
+          }
+        ]
+      }
     },
     {
-      "number": "89",
-      "sound": "ɗɗ",
+      "entry": "89",
       "transcription": "ˈle̞ɗɗe̞ʔ",
       "translation": "trees",
-      "end": "261.136907",
-      "start": "259.940241"
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuc_word-list_1972_01.wav",
+            "start": "259.940241",
+            "end": "261.136907"
+          }
+        ]
+      }
     },
     {
-      "number": "90",
-      "sound": "ɗɗj",
+      "entry": "90",
       "transcription": "ˈmaɗɗje̞ɾe̞ʔ",
       "translation": "lightening",
-      "end": "262.800422",
-      "start": "261.136907"
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuc_word-list_1972_01.wav",
+            "start": "261.136907",
+            "end": "262.800422"
+          }
+        ]
+      }
     },
     {
-      "number": "91",
-      "sound": "nnd",
+      "entry": "91",
       "transcription": "ˈhannde̞",
       "translation": "today",
-      "end": "264.474572",
-      "start": "262.800422"
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuc_word-list_1972_01.wav",
+            "start": "262.800422",
+            "end": "264.474572"
+          }
+        ]
+      }
     },
     {
-      "number": "92",
-      "sound": "nn",
+      "entry": "92",
       "transcription": "bonneɾe̞ʔ",
       "translation": "damage",
-      "end": "267.424005",
-      "start": "264.474572"
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuc_word-list_1972_01.wav",
+            "start": "264.474572",
+            "end": "267.424005"
+          }
+        ]
+      }
     },
     {
-      "number": "93",
-      "sound": "rr",
+      "entry": "93",
       "transcription": "ˈloraʔ",
       "translation": "trouble, suffering",
-      "end": "270.058177",
-      "start": "267.424005"
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuc_word-list_1972_01.wav",
+            "start": "267.424005",
+            "end": "270.058177"
+          }
+        ]
+      }
     },
     {
-      "number": "94",
-      "sound": "ll",
+      "entry": "94",
       "transcription": "ˈpulloʔ",
       "translation": "a Fulani",
-      "end": "272.123687",
-      "start": "270.058177"
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuc_word-list_1972_01.wav",
+            "start": "270.058177",
+            "end": "272.123687"
+          }
+        ]
+      }
     },
     {
-      "number": "95",
-      "sound": "t̠ɕt̠ɕ",
+      "entry": "95",
       "transcription": "ˈmat̠ɕt̠ɕudoʔ",
       "translation": "slave",
-      "end": "274.844277",
-      "start": "272.123687"
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuc_word-list_1972_01.wav",
+            "start": "272.123687",
+            "end": "274.844277"
+          }
+        ]
+      }
     },
     {
-      "number": "96",
-      "sound": "d̠ʑd̠ʑ",
+      "entry": "96",
       "transcription": "ˈbad̠ʑd̠ʑoʔ",
       "translation": "only child",
-      "end": "276.390399",
-      "start": "274.844277"
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuc_word-list_1972_01.wav",
+            "start": "274.844277",
+            "end": "276.390399"
+          }
+        ]
+      }
     },
     {
-      "number": "97",
-      "sound": "ɲɲ",
+      "entry": "97",
       "transcription": "ˈmuɲɲade̞ʔ",
       "translation": "to be meek",
-      "end": "278.525524",
-      "start": "276.390399"
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuc_word-list_1972_01.wav",
+            "start": "276.390399",
+            "end": "278.525524"
+          }
+        ]
+      }
     },
     {
-      "number": "98",
-      "sound": "kk",
+      "entry": "98",
       "transcription": "ˈlekki̞ʔ",
       "translation": "tree",
-      "end": "280.145615",
-      "start": "278.525524"
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuc_word-list_1972_01.wav",
+            "start": "278.525524",
+            "end": "280.145615"
+          }
+        ]
+      }
     },
     {
-      "number": "99",
-      "sound": "ɡɡ",
+      "entry": "99",
       "transcription": "ˈnaɡɡe̞ʔ",
       "translation": "cow",
-      "end": "281.735275",
-      "start": "280.145615"
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuc_word-list_1972_01.wav",
+            "start": "280.145615",
+            "end": "281.735275"
+          }
+        ]
+      }
     },
     {
-      "number": "100",
-      "sound": "ŋŋɡ",
+      "entry": "100",
       "transcription": "ˈmaŋŋɡuʔ",
       "translation": "greatness, size, honor",
-      "end": "283.142327",
-      "start": "281.735275"
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuc_word-list_1972_01.wav",
+            "start": "281.735275",
+            "end": "283.142327"
+          }
+        ]
+      }
     },
     {
-      "number": "101",
-      "sound": "",
+      "entry": "101",
       "transcription": "ˈat̠ɕt̠ɕudeʔ",
       "translation": "to leave",
-      "end": "",
-      "start": "283.142327"
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuc_word-list_1972_01.wav",
+            "start": "283.142327",
+            "end": ""
+          }
+        ]
+      }
     },
     {
-      "number": "102",
-      "sound": "",
+      "entry": "102",
       "transcription": "kʼeɓɗen",
       "translation": "we got",
-      "end": "",
-      "start": ""
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuc_word-list_1972_01.wav",
+            "start": "",
+            "end": ""
+          }
+        ]
+      }
     },
     {
-      "number": "103",
-      "sound": "",
+      "entry": "103",
       "transcription": "ˈɗajnudeʔ",
       "translation": "to make believe",
-      "end": "",
-      "start": ""
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuc_word-list_1972_01.wav",
+            "start": "",
+            "end": ""
+          }
+        ]
+      }
     },
     {
-      "number": "104",
-      "sound": "",
+      "entry": "104",
       "transcription": "ˈmaajoʔ",
       "translation": "river",
-      "end": "",
-      "start": ""
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuc_word-list_1972_01.wav",
+            "start": "",
+            "end": ""
+          }
+        ]
+      }
     },
     {
-      "number": "105",
-      "sound": "",
+      "entry": "105",
       "transcription": "ˈndijamʔ",
       "translation": "water",
-      "end": "",
-      "start": ""
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuc_word-list_1972_01.wav",
+            "start": "",
+            "end": ""
+          }
+        ]
+      }
     },
     {
-      "number": "106",
-      "sound": "",
+      "entry": "106",
       "transcription": "ˈnaŋɡoʔ",
       "translation": "to hear",
-      "end": "",
-      "start": ""
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuc_word-list_1972_01.wav",
+            "start": "",
+            "end": ""
+          }
+        ]
+      }
     },
     {
-      "number": "107",
-      "sound": "",
+      "entry": "107",
       "transcription": "ˈwaɾtiʔ",
       "translation": "come back",
-      "end": "",
-      "start": ""
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuc_word-list_1972_01.wav",
+            "start": "",
+            "end": ""
+          }
+        ]
+      }
     },
     {
-      "number": "108",
-      "sound": "",
+      "entry": "108",
       "transcription": "ˈtakkoʔ",
       "translation": "stick to",
-      "end": "",
-      "start": ""
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuc_word-list_1972_01.wav",
+            "start": "",
+            "end": ""
+          }
+        ]
+      }
     },
     {
-      "number": "109",
-      "sound": "",
+      "entry": "109",
       "transcription": "daˈɲii",
       "translation": "give birth to",
-      "end": "",
-      "start": ""
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuc_word-list_1972_01.wav",
+            "start": "",
+            "end": ""
+          }
+        ]
+      }
     },
     {
-      "number": "110",
-      "sound": "",
+      "entry": "110",
       "transcription": "ˈwonɗoʔ",
       "translation": "one present",
-      "end": "",
-      "start": ""
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuc_word-list_1972_01.wav",
+            "start": "",
+            "end": ""
+          }
+        ]
+      }
     },
     {
-      "number": "111",
-      "sound": "",
+      "entry": "111",
       "transcription": "o looˈtii",
       "translation": "he washed",
-      "end": "",
-      "start": ""
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuc_word-list_1972_01.wav",
+            "start": "",
+            "end": ""
+          }
+        ]
+      }
     },
     {
-      "number": "112",
-      "sound": "",
+      "entry": "112",
       "transcription": "ˈho̠mbo",
       "translation": "which",
-      "end": "",
-      "start": ""
+      "metadata": {
+        "links": [
+          {
+            "type": "timestamp",
+            "fileName": "fuc_word-list_1972_01.wav",
+            "start": "",
+            "end": ""
+          }
+        ]
+      }
     }
   ]
 }
