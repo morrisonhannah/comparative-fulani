@@ -124,11 +124,9 @@ export class ComparativeLexicon extends HTMLElement {
 
       // Add a cell for each lexicon
       this.lexicons.forEach((lexicon) => {
-        // const word = lexicon.words.find((word) => word.gloss === gloss)
         const word = lexicon.words.find((word) => word.gloss === gloss)
         const cell = document.createElement("td")
         if(word?.form.length){
-          // console.log(word)
           cell.classList.add('found')
           cell.textContent = word.form
           if (word?.metadata?.links){
@@ -146,11 +144,15 @@ export class ComparativeLexicon extends HTMLElement {
 
       let tds = Array.from(row.querySelectorAll('td'))
 
-      // let noOverlap = tds
-      //     .filter(td => td.classList.contains('found'))
-      //     .length < 2 
+      let noOverlap = tds
+          .filter(td => td.classList.contains('found'))
+          .length < 2 
 
-      // if(noOverlap){ row.style.display = 'none' }
+      if(noOverlap){ 
+        row.classList.add('no-overlap') 
+      } else {
+        row.classList.add('overlap')
+      }
       
 
       // Add the row to the table
@@ -162,6 +164,13 @@ export class ComparativeLexicon extends HTMLElement {
   }
 
   listen(){
+
+    document.querySelector('[name="overlap-only"]')
+      .addEventListener('change', changeEvent => {
+        console.log(changeEvent.target)
+        // this.querySelectorAll('.no-overlap').hidden = true
+      })
+
     this.addEventListener('click', clickEvent => {
       if(clickEvent.target.matches('td')){
         let {start, end, fileName} = clickEvent.target.dataset
