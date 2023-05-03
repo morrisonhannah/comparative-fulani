@@ -1,0 +1,27 @@
+
+@import url(play-word.css);
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+}
+
+body > * {
+  font-family: sans-serif;
+  padding:1em;
+}
+
+header {
+  background: green;
+  color:white;
+}
+
+header h1 {
+  font-family: monospace;
+}
+
+play-word {
+}

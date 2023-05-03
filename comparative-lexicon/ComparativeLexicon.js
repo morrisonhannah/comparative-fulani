@@ -1,6 +1,49 @@
 export class ComparativeLexicon extends HTMLElement {
   constructor() {
     super()
+    this.innerHTML = `
+      <aside>
+      
+    <!-- should this stuff be hardcoded?? -->
+    <div class="toggle-overlap">
+      <label><input checked="" type="checkbox" name="overlap-only"> only rows with overlap</label>
+    </div>
+    
+    <!-- Language Family -->
+<h2>Fulani</h2>
+<!-- constituent languages -->
+<!-- need little arrows here for each to shift the order -->
+<div>
+
+  <!-- need little arrows here for each to shift the order -->
+<input checked="" type="checkbox" id="fub-toggle" name="fub">
+<label for="fub-toggle">Fufulde-Adamawa</label>
+<div>
+
+<input checked="" type="checkbox" id="ffm-toggle" name="ffm">
+<label for="ffm-toggle">Fufulde-Maasina</label>
+<div>
+
+<input checked="" type="checkbox" id="fuv-toggle" name="fuv">
+<label for="fuv-toggle">Fufulde-Nigerian</label>
+<div>
+
+<input checked="" type="checkbox" id="fuh-toggle" name="fuh">
+<label for="fuh-toggle">Fufulde-Western Niger</label>
+<div>
+
+<input checked="" type="checkbox" id="fuc-toggle" name="fuc">
+<label for="fuc-toggle">Pulaar</label>
+<div>
+
+<input checked="" type="checkbox" id="fuf-toggle" name="fuf">
+<label for="fuf-toggle">Pular</label>
+<div>
+  
+</div></div></div></div></div></div></div>
+      </aside>
+      <table></table>
+    `
     this.lexicons = []
 
     this.audios = {}
@@ -85,11 +128,10 @@ export class ComparativeLexicon extends HTMLElement {
 
   // Render the table
   render() {
-    this.innerHTML = ""
-
-    // Create the table element
-    const table = document.createElement("table")
-
+    
+    let aside = this.querySelector('aside')
+    let table = this.querySelector('table')
+    
     // Create the header row
     const headerRow = document.createElement("tr")
 
@@ -158,18 +200,22 @@ export class ComparativeLexicon extends HTMLElement {
       // Add the row to the table
       table.appendChild(row)
     })
-
-    // Add the table to the component
-    this.appendChild(table)
   }
 
   listen(){
 
     document.querySelector('[name="overlap-only"]')
       .addEventListener('change', changeEvent => {
-        console.log(changeEvent.target)
-        // this.querySelectorAll('.no-overlap').hidden = true
-      })
+        this.querySelectorAll('.no-overlap')
+          .forEach(tr => {
+            if(changeEvent.target.checked){
+              tr.style.display = 'none'
+            } else {
+              tr.style.display = 'table-row'
+            }
+          })
+        })
+  
 
     this.addEventListener('click', clickEvent => {
       if(clickEvent.target.matches('td')){

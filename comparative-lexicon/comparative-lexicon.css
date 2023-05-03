@@ -1,4 +1,16 @@
+body {
+}
+
 
 comparative-lexicon {
-  display: block;
+  display: grid;
+
+  grid-template: 
+    "sidebar table" 1fr 
+  /  1fr     5fr;
+}
+
+
+comparative-lexicon aside {
+  background:seagreen;
 }
