@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Caveat:wght@400;500;600;700&family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&family=Gochi+Hand&family=Kalam:wght@300;400;700&family=Kavivanar&family=Pangolin&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Shrikhand&display=swap');
-
+@import 'https://fonts.googleapis.com/css2?family=Carter+One&family=Caveat:wght@400;500;600;700&family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&family=Gochi+Hand&family=Kalam:wght@300;400;700&family=Kavivanar&family=Pangolin&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Shrikhand&display=swap';
+@import "comparative-lexicon/comparative-lexicon.css";
 
 * {
   box-sizing: border-box;
@@ -10,22 +10,22 @@ html {
   height: 100%;
   margin:0;
 }
+
 * {
   box-sizing: border-box;
 }
 
 
 body {
-
   padding:0;
   margin:0;
   height: 100%;
   display: grid;
 
   grid-template:
-    "top-bit  top-bit" auto
-    "sidebar   good-stuff" 1fr
-  /  1fr    4fr;
+    "top-bit" auto
+    "good-stuff" 1fr
+  /  1fr;
 }
 
 body > * {
@@ -42,10 +42,6 @@ body > header > h1 {
   /* margin: 0; */
 }
 
-aside {
-  grid-area: sidebar;
-  background: darkcyan;
-}
 
 main {
   grid-area: good-stuff;
@@ -75,12 +71,9 @@ html {
 
 /* Style the links inside the navigation bar */
 .topnav a {
-  float: left;
   color: #f2f2f2;
-  text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
 }
 
 /* Change the color of links on hover */
@@ -96,7 +89,6 @@ html {
 }
 
 #searchbar {
-  float: right;
   margin: 1em;
 }
 
